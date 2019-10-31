@@ -7,8 +7,8 @@
 #include "hal.h"
 #include "memory_protection.h"
 #include <main.h>
-#include "camera.h"
-#include "dcmi_camera.h"
+#include "camera/camera.h"
+#include "camera/dcmi_camera.h"
 #include "spi_comm.h"
 #include "sensors/VL53L0X/VL53L0X.h"
 #include "motors.h"
@@ -21,7 +21,7 @@ int **Get_Image()
     int **matrix;
     matrix = malloc(sizeof(int *) * imgRow);
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < (imgRow+imgCol); i++)
     {
         matrix[i] = malloc(sizeof(int *) * imgCol);
     }
@@ -49,12 +49,13 @@ void Face_Object()
     int col = 0;
     int dis_min = 1000000;
     int leftLimit, rightLimit;
+    int r,g,b;
     for (int i = 0; i <= imgRow; i++)
     {
         for (int j = 0; j <= imgCol; j++)
         {
             r = (int)image[i][j] & 0xF8;
-            g = (int)(imge[i][j] & 0x07) << 5;
+            g = (int)(image[i][j] & 0x07) << 5;
             //| (img[1] & 0xE0) >> 3;
             b = (int)(image[i][j] & 0x1F) << 3;
             int dis = (r - 255) * (r - 255) + g * g + b * b;
@@ -90,8 +91,8 @@ void Face_Object()
 // looks at the distance of an object and follow it at a distance. 
 void Follow_Object()
 {
-    int driveSpeed = 300;
-    if (VL53L0X_get_dist_mm() < 46)
+    int driveSpeed = 500;
+    if (VL53L0X_get_dist_mm() >= 46 && VL53L0X_get_dist_mm() <= 54)
     {
         left_motor_set_speed(driveSpeed * -1);
         right_motor_set_speed(driveSpeed * -1);
@@ -101,7 +102,7 @@ void Follow_Object()
         left_motor_set_speed(driveSpeed);
         right_motor_set_speed(driveSpeed);
     }
-    else
+    else if(VL53L0X_get_dist_mm() < 46)
     {
         left_motor_set_speed(0);
         right_motor_set_speed(0);
@@ -113,30 +114,29 @@ int main(void)
     halInit();
     chSysInit();
     mpu_init();
-    cam_start();
-    cam_config(FORMAT_COLOR, SIZE_VGA);
-    dcmi_start();
-    spi_comm_start();
-    dcmi_prepare();
-    dcmi_set_capture_mode(CAPTURE_CONTINUOUS);
-    dcmi_capture_start();
     VL53L0X_start();
+//    cam_start();
+//    cam_config(FORMAT_COLOR, SIZE_VGA);
+//    dcmi_start();
+//    spi_comm_start();
+//    dcmi_prepare();
+//    dcmi_set_capture_mode(CAPTURE_CONTINUOUS);
+//    dcmi_capture_start();
+
     motors_init();
 
     /* Infinite loop. */
     while (1)
     {
         // Read camera.
-        spi_comm_suspend();
-        dcmi_capture_start();
-        wait_image_ready();
-        spi_comm_resume();
 
-        Face_Object();
-        chThdSleepMilliseconds(500);
+
+//        Face_Object();
+//        chThdSleepMilliseconds(500);
         Follow_Object();
         chThdSleepMilliseconds(500);
     }
+}
 
 #define STACK_CHK_GUARD 0xe2dee396
     uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
@@ -145,3 +145,4 @@ int main(void)
     {
         chSysHalt("Stack smashing detected");
     }
+

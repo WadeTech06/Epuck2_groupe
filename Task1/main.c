@@ -52,6 +52,10 @@ void Turn_Puck(int sensor, int speed) {
 		break;
 	}
 }
+//TODO:
+// gradually increase Initial speed when close to a wall
+// handling narrow rooms
+// handle dead ends
 
 int main(void) {
 
@@ -83,31 +87,35 @@ int main(void) {
 		// checks for walls; if a wall is near turn opposite direction
 		for (int i = 0; i <= 7; i++) {
 
-			// add selector to control debugging logs
-			str_length = sprintf(str, "Prox Sensor %d: %d\n", i,
-					get_prox(i));
-			e_send_uart1_char(str, str_length);
+//			// add selector to control debugging logs
+//			str_length = sprintf(str, "Prox Sensor %d: %d\n", i, get_prox(i));
+//			e_send_uart1_char(str, str_length);
 
 			if (get_prox(i) >= sensorThreshold) {
-				Set_Speed(0);
-				chThdSleepMilliseconds(500);
+				//Set_Speed(0);
+				//chThdSleepMilliseconds(500);
 				Turn_Puck(i, turningSpeed);
 				randDirectionCount = 0;
 			} else {
-				Set_Speed(forwardSpeed);
+				if (left_motor_get_desired_speed() != forwardSpeed
+						&& right_motor_get_desired_speed() != forwardSpeed)
+					Set_Speed(forwardSpeed);
 			}
 		}
 
 		// after moving without detection of a wall for 3 seconds change to random direction
-		if (randDirectionCount > 3) {
-			Set_Speed(0);
-			chThdSleepMilliseconds(500);
-			Turn_Puck(-1, turningSpeed);
-			int sleep = (rand() % 5) * 1000;
-			chThdSleepMilliseconds(sleep);
-			Set_Speed(forwardSpeed);
-			randDirectionCount = 0;
-		}
+//		if (randDirectionCount > 3) {
+////			str_length = sprintf(str, "Turning random direction\n");
+////			e_send_uart1_char(str, str_length);
+//
+////			Set_Speed(0);
+////			chThdSleepMilliseconds(500);
+//			Turn_Puck(-1, turningSpeed);
+//			int sleep = (rand() % 5) * 1000;
+//			chThdSleepMilliseconds(sleep);
+//			//Set_Speed(forwardSpeed);
+//			randDirectionCount = 0;
+//		}
 
 		//waits 1 second
 		chThdSleepMilliseconds(500);
