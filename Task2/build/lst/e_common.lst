@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc6TEyCl.s 			page 1
+ARM GAS  /tmp/ccVuMkm8.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
   55              		.loc 1 26 0
   56 0016 022D     		cmp	r5, #2
   57              		.loc 1 10 0
-ARM GAS  /tmp/cc6TEyCl.s 			page 2
+ARM GAS  /tmp/ccVuMkm8.s 			page 2
 
 
   58 0018 0D9C     		ldr	r4, [sp, #52]
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  112              		.loc 1 61 0
  113 005c FFF7FEFF 		bl	dcmi_disable_double_buffering
  114              	.LVL16:
-ARM GAS  /tmp/cc6TEyCl.s 			page 3
+ARM GAS  /tmp/ccVuMkm8.s 			page 3
 
 
  115              		.loc 1 62 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  169              		.loc 1 34 0
  170 0094 8025     		movs	r5, #128
  171              	.LVL30:
-ARM GAS  /tmp/cc6TEyCl.s 			page 4
+ARM GAS  /tmp/ccVuMkm8.s 			page 4
 
 
  172              		.loc 1 35 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  226 0014 C0B2     		uxtb	r0, r0
  227              	.LVL38:
  228              		.loc 1 72 0
-ARM GAS  /tmp/cc6TEyCl.s 			page 5
+ARM GAS  /tmp/ccVuMkm8.s 			page 5
 
 
  229 0016 03B0     		add	sp, sp, #12
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  283 0014 5DF804FB 		ldr	pc, [sp], #4
  284              	.L33:
  285              		.cfi_restore_state
-ARM GAS  /tmp/cc6TEyCl.s 			page 6
+ARM GAS  /tmp/ccVuMkm8.s 			page 6
 
 
  286 0018 FFF7FEFF 		bl	__stack_chk_fail
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  340 0020 00000000 		.word	__stack_chk_guard
  341              		.cfi_endproc
  342              	.LFE259:
-ARM GAS  /tmp/cc6TEyCl.s 			page 7
+ARM GAS  /tmp/ccVuMkm8.s 			page 7
 
 
  343              		.size	e_poxxxx_init_cam, .-e_poxxxx_init_cam
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  397              		.fpu fpv4-sp-d16
  398              		.type	e_poxxxx_set_awb_ae, %function
  399              	e_poxxxx_set_awb_ae:
-ARM GAS  /tmp/cc6TEyCl.s 			page 8
+ARM GAS  /tmp/ccVuMkm8.s 			page 8
 
 
  400              	.LFB261:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  454              	.LFE261:
  455              		.size	e_poxxxx_set_awb_ae, .-e_poxxxx_set_awb_ae
  456              		.section	.text.e_poxxxx_set_rgb_gain,"ax",%progbits
-ARM GAS  /tmp/cc6TEyCl.s 			page 9
+ARM GAS  /tmp/ccVuMkm8.s 			page 9
 
 
  457              		.align	1
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  511              		.align	1
  512              		.p2align 4,,15
  513              		.global	e_poxxxx_set_exposure
-ARM GAS  /tmp/cc6TEyCl.s 			page 10
+ARM GAS  /tmp/ccVuMkm8.s 			page 10
 
 
  514              		.syntax unified
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  568              		.global	getCameraVersion
  569              		.syntax unified
  570              		.thumb
-ARM GAS  /tmp/cc6TEyCl.s 			page 11
+ARM GAS  /tmp/ccVuMkm8.s 			page 11
 
 
  571              		.thumb_func
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  625              		.loc 1 131 0
  626              		.cfi_startproc
  627              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/cc6TEyCl.s 			page 12
+ARM GAS  /tmp/ccVuMkm8.s 			page 12
 
 
  628              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  682              		.loc 1 141 0
  683              		.cfi_startproc
  684              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/cc6TEyCl.s 			page 13
+ARM GAS  /tmp/ccVuMkm8.s 			page 13
 
 
  685              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  739 0002 084C     		ldr	r4, .L93
  740 0004 82B0     		sub	sp, sp, #8
  741              		.cfi_def_cfa_offset 16
-ARM GAS  /tmp/cc6TEyCl.s 			page 14
+ARM GAS  /tmp/ccVuMkm8.s 			page 14
 
 
  742              		.loc 1 148 0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  796              		.file 20 "../e-puck2_main-processor/ChibiOS//os/rt/include/chqueues.h"
  797              		.file 21 "../e-puck2_main-processor/ChibiOS//os/hal/ports/STM32/STM32F4xx/stm32_dma.h"
  798              		.file 22 "../e-puck2_main-processor/ChibiOS//os/hal/include/hal_ioblock.h"
-ARM GAS  /tmp/cc6TEyCl.s 			page 15
+ARM GAS  /tmp/ccVuMkm8.s 			page 15
 
 
  799              		.file 23 "../e-puck2_main-processor/ChibiOS//os/hal/ports/STM32/LLD/GPIOv2/pal_lld.h"
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  853 002d 01       		.byte	0x1
  854 002e 06       		.byte	0x6
  855 002f FD140000 		.4byte	.LASF1
-ARM GAS  /tmp/cc6TEyCl.s 			page 16
+ARM GAS  /tmp/ccVuMkm8.s 			page 16
 
 
  856 0033 03       		.uleb128 0x3
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  910 009f 02       		.uleb128 0x2
  911 00a0 08       		.byte	0x8
  912 00a1 07       		.byte	0x7
-ARM GAS  /tmp/cc6TEyCl.s 			page 17
+ARM GAS  /tmp/ccVuMkm8.s 			page 17
 
 
  913 00a2 511F0000 		.4byte	.LASF14
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  967 011a 05       		.byte	0x5
  968 011b 45       		.byte	0x45
  969 011c E3000000 		.4byte	0xe3
-ARM GAS  /tmp/cc6TEyCl.s 			page 18
+ARM GAS  /tmp/ccVuMkm8.s 			page 18
 
 
  970 0120 03       		.uleb128 0x3
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1024 0195 E3000000 		.4byte	0xe3
  1025 0199 03       		.uleb128 0x3
  1026 019a 92030000 		.4byte	.LASF35
-ARM GAS  /tmp/cc6TEyCl.s 			page 19
+ARM GAS  /tmp/ccVuMkm8.s 			page 19
 
 
  1027 019e 06       		.byte	0x6
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1081 020d 07       		.byte	0x7
  1082 020e D2       		.byte	0xd2
  1083 020f FF100000 		.4byte	0x10ff
-ARM GAS  /tmp/cc6TEyCl.s 			page 20
+ARM GAS  /tmp/ccVuMkm8.s 			page 20
 
 
  1084 0213 18       		.byte	0x18
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1138 0282 30       		.byte	0x30
  1139 0283 0A       		.uleb128 0xa
  1140 0284 DC070000 		.4byte	.LASF52
-ARM GAS  /tmp/cc6TEyCl.s 			page 21
+ARM GAS  /tmp/ccVuMkm8.s 			page 21
 
 
  1141 0288 07       		.byte	0x7
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1195 02fa 08       		.uleb128 0x8
  1196 02fb EE110000 		.4byte	.LASF37
  1197 02ff 07       		.byte	0x7
-ARM GAS  /tmp/cc6TEyCl.s 			page 22
+ARM GAS  /tmp/ccVuMkm8.s 			page 22
 
 
  1198 0300 B1       		.byte	0xb1
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1252 036f 9401     		.2byte	0x194
  1253 0371 890D0000 		.4byte	0xd89
  1254 0375 0C       		.byte	0xc
-ARM GAS  /tmp/cc6TEyCl.s 			page 23
+ARM GAS  /tmp/ccVuMkm8.s 			page 23
 
 
  1255 0376 0A       		.uleb128 0xa
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1309 03e7 6D01     		.2byte	0x16d
  1310 03e9 1C110000 		.4byte	0x111c
  1311 03ed 04       		.byte	0x4
-ARM GAS  /tmp/cc6TEyCl.s 			page 24
+ARM GAS  /tmp/ccVuMkm8.s 			page 24
 
 
  1312 03ee 0A       		.uleb128 0xa
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1366 0462 00       		.byte	0
  1367 0463 03       		.uleb128 0x3
  1368 0464 250A0000 		.4byte	.LASF83
-ARM GAS  /tmp/cc6TEyCl.s 			page 25
+ARM GAS  /tmp/ccVuMkm8.s 			page 25
 
 
  1369 0468 06       		.byte	0x6
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1423 04dd CA01     		.2byte	0x1ca
  1424 04df 16040000 		.4byte	0x416
  1425 04e3 1C       		.byte	0x1c
-ARM GAS  /tmp/cc6TEyCl.s 			page 26
+ARM GAS  /tmp/ccVuMkm8.s 			page 26
 
 
  1426 04e4 09       		.uleb128 0x9
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1480 055c E3000000 		.4byte	0xe3
  1481 0560 17       		.uleb128 0x17
  1482 0561 50       		.byte	0x50
-ARM GAS  /tmp/cc6TEyCl.s 			page 27
+ARM GAS  /tmp/ccVuMkm8.s 			page 27
 
 
  1483 0562 0A       		.byte	0xa
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1537 05cd CE       		.byte	0xce
  1538 05ce EE000000 		.4byte	0xee
  1539 05d2 20       		.byte	0x20
-ARM GAS  /tmp/cc6TEyCl.s 			page 28
+ARM GAS  /tmp/ccVuMkm8.s 			page 28
 
 
  1540 05d3 18       		.uleb128 0x18
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1594 063f 08       		.uleb128 0x8
  1595 0640 02210000 		.4byte	.LASF111
  1596 0644 0A       		.byte	0xa
-ARM GAS  /tmp/cc6TEyCl.s 			page 29
+ARM GAS  /tmp/ccVuMkm8.s 			page 29
 
 
  1597 0645 D8       		.byte	0xd8
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1651 06aa DF060000 		.4byte	0x6df
  1652 06ae 18       		.uleb128 0x18
  1653 06af 52495200 		.ascii	"RIR\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 30
+ARM GAS  /tmp/ccVuMkm8.s 			page 30
 
 
  1654 06b3 0A       		.byte	0xa
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1708 071e 0B01     		.2byte	0x10b
  1709 0720 50080000 		.4byte	0x850
  1710 0724 09       		.uleb128 0x9
-ARM GAS  /tmp/cc6TEyCl.s 			page 31
+ARM GAS  /tmp/ccVuMkm8.s 			page 31
 
 
  1711 0725 4D435200 		.ascii	"MCR\000"
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1765 079a C0110000 		.4byte	.LASF125
  1766 079e 0A       		.byte	0xa
  1767 079f 1601     		.2byte	0x116
-ARM GAS  /tmp/cc6TEyCl.s 			page 32
+ARM GAS  /tmp/ccVuMkm8.s 			page 32
 
 
  1768 07a1 60080000 		.4byte	0x860
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1822 081f E3000000 		.4byte	0xe3
  1823 0823 1802     		.2byte	0x218
  1824 0825 11       		.uleb128 0x11
-ARM GAS  /tmp/cc6TEyCl.s 			page 33
+ARM GAS  /tmp/ccVuMkm8.s 			page 33
 
 
  1825 0826 ED030000 		.4byte	.LASF134
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1879 08a1 970C0000 		.4byte	.LASF137
  1880 08a5 0A       		.byte	0xa
  1881 08a6 2301     		.2byte	0x123
-ARM GAS  /tmp/cc6TEyCl.s 			page 34
+ARM GAS  /tmp/ccVuMkm8.s 			page 34
 
 
  1882 08a8 1A070000 		.4byte	0x71a
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1936 091c 0A       		.uleb128 0xa
  1937 091d EB1E0000 		.4byte	.LASF145
  1938 0921 0A       		.byte	0xa
-ARM GAS  /tmp/cc6TEyCl.s 			page 35
+ARM GAS  /tmp/ccVuMkm8.s 			page 35
 
 
  1939 0922 4001     		.2byte	0x140
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  1993 0992 EE000000 		.4byte	0xee
  1994 0996 04       		.byte	0x4
  1995 0997 0A       		.uleb128 0xa
-ARM GAS  /tmp/cc6TEyCl.s 			page 36
+ARM GAS  /tmp/ccVuMkm8.s 			page 36
 
 
  1996 0998 80090000 		.4byte	.LASF151
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2050 0a0c 1A       		.uleb128 0x1a
  2051 0a0d F2030000 		.4byte	.LASF157
  2052 0a11 0A       		.byte	0xa
-ARM GAS  /tmp/cc6TEyCl.s 			page 37
+ARM GAS  /tmp/ccVuMkm8.s 			page 37
 
 
  2053 0a12 6501     		.2byte	0x165
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2107 0a89 01       		.byte	0x1
  2108 0a8a 00       		.byte	0
  2109 0a8b 06       		.uleb128 0x6
-ARM GAS  /tmp/cc6TEyCl.s 			page 38
+ARM GAS  /tmp/ccVuMkm8.s 			page 38
 
 
  2110 0a8c 7B0A0000 		.4byte	0xa7b
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2164 0b01 4702     		.2byte	0x247
  2165 0b03 EE000000 		.4byte	0xee
  2166 0b07 18       		.byte	0x18
-ARM GAS  /tmp/cc6TEyCl.s 			page 39
+ARM GAS  /tmp/ccVuMkm8.s 			page 39
 
 
  2167 0b08 09       		.uleb128 0x9
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2221 0b7a 73190000 		.4byte	.LASF169
  2222 0b7e 0A       		.byte	0xa
  2223 0b7f C502     		.2byte	0x2c5
-ARM GAS  /tmp/cc6TEyCl.s 			page 40
+ARM GAS  /tmp/ccVuMkm8.s 			page 40
 
 
  2224 0b81 F3000000 		.4byte	0xf3
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2278 0bf6 F3000000 		.4byte	0xf3
  2279 0bfa 34       		.byte	0x34
  2280 0bfb 09       		.uleb128 0x9
-ARM GAS  /tmp/cc6TEyCl.s 			page 41
+ARM GAS  /tmp/ccVuMkm8.s 			page 41
 
 
  2281 0bfc 49435200 		.ascii	"ICR\000"
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2335 0c70 43523100 		.ascii	"CR1\000"
  2336 0c74 0A       		.byte	0xa
  2337 0c75 DD02     		.2byte	0x2dd
-ARM GAS  /tmp/cc6TEyCl.s 			page 42
+ARM GAS  /tmp/ccVuMkm8.s 			page 42
 
 
  2338 0c77 EE000000 		.4byte	0xee
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2392 0ce9 E602     		.2byte	0x2e6
  2393 0ceb 660C0000 		.4byte	0xc66
  2394 0cef 19       		.uleb128 0x19
-ARM GAS  /tmp/cc6TEyCl.s 			page 43
+ARM GAS  /tmp/ccVuMkm8.s 			page 43
 
 
  2395 0cf0 1C       		.byte	0x1c
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2449 0d63 6E0D0000 		.4byte	0xd6e
  2450 0d67 14       		.uleb128 0x14
  2451 0d68 25000000 		.4byte	0x25
-ARM GAS  /tmp/cc6TEyCl.s 			page 44
+ARM GAS  /tmp/ccVuMkm8.s 			page 44
 
 
  2452 0d6c 0E       		.byte	0xe
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2506 0dd8 F9       		.byte	0xf9
  2507 0dd9 730D0000 		.4byte	0xd73
  2508 0ddd 0C       		.byte	0xc
-ARM GAS  /tmp/cc6TEyCl.s 			page 45
+ARM GAS  /tmp/ccVuMkm8.s 			page 45
 
 
  2509 0dde 18       		.uleb128 0x18
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2563 0e4d 09       		.uleb128 0x9
  2564 0e4e 73323900 		.ascii	"s29\000"
  2565 0e52 0C       		.byte	0xc
-ARM GAS  /tmp/cc6TEyCl.s 			page 46
+ARM GAS  /tmp/ccVuMkm8.s 			page 46
 
 
  2566 0e53 0301     		.2byte	0x103
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2620 0ec2 0D01     		.2byte	0x10d
  2621 0ec4 730D0000 		.4byte	0xd73
  2622 0ec8 58       		.byte	0x58
-ARM GAS  /tmp/cc6TEyCl.s 			page 47
+ARM GAS  /tmp/ccVuMkm8.s 			page 47
 
 
  2623 0ec9 09       		.uleb128 0x9
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2677 0f31 67       		.byte	0x67
  2678 0f32 5B0F0000 		.4byte	0xf5b
  2679 0f36 08       		.uleb128 0x8
-ARM GAS  /tmp/cc6TEyCl.s 			page 48
+ARM GAS  /tmp/ccVuMkm8.s 			page 48
 
 
  2680 0f37 7D0D0000 		.4byte	.LASF199
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2734 0fa0 DF0F0000 		.4byte	0xfdf
  2735 0fa4 08       		.uleb128 0x8
  2736 0fa5 73070000 		.4byte	.LASF205
-ARM GAS  /tmp/cc6TEyCl.s 			page 49
+ARM GAS  /tmp/ccVuMkm8.s 			page 49
 
 
  2737 0fa9 0E       		.byte	0xe
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2791 1010 3B       		.byte	0x3b
  2792 1011 DF0F0000 		.4byte	0xfdf
  2793 1015 08       		.byte	0x8
-ARM GAS  /tmp/cc6TEyCl.s 			page 50
+ARM GAS  /tmp/ccVuMkm8.s 			page 50
 
 
  2794 1016 08       		.uleb128 0x8
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2848 108c 04       		.byte	0x4
  2849 108d D2020000 		.4byte	0x2d2
  2850 1091 07       		.uleb128 0x7
-ARM GAS  /tmp/cc6TEyCl.s 			page 51
+ARM GAS  /tmp/ccVuMkm8.s 			page 51
 
 
  2851 1092 01170000 		.4byte	.LASF222
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2905 10fb BC100000 		.4byte	0x10bc
  2906 10ff 0B       		.uleb128 0xb
  2907 1100 04       		.byte	0x4
-ARM GAS  /tmp/cc6TEyCl.s 			page 52
+ARM GAS  /tmp/ccVuMkm8.s 			page 52
 
 
  2908 1101 11110000 		.4byte	0x1111
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  2962 1170 C8000000 		.4byte	0xc8
  2963 1174 06       		.byte	0x6
  2964 1175 08       		.uleb128 0x8
-ARM GAS  /tmp/cc6TEyCl.s 			page 53
+ARM GAS  /tmp/ccVuMkm8.s 			page 53
 
 
  2965 1176 27000000 		.4byte	.LASF235
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3019 11e2 B0080000 		.4byte	.LASF244
  3020 11e6 12       		.byte	0x12
  3021 11e7 43       		.byte	0x43
-ARM GAS  /tmp/cc6TEyCl.s 			page 54
+ARM GAS  /tmp/ccVuMkm8.s 			page 54
 
 
  3022 11e8 AD000000 		.4byte	0xad
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3076 125a 03       		.uleb128 0x3
  3077 125b 180B0000 		.4byte	.LASF252
  3078 125f 13       		.byte	0x13
-ARM GAS  /tmp/cc6TEyCl.s 			page 55
+ARM GAS  /tmp/ccVuMkm8.s 			page 55
 
 
  3079 1260 34       		.byte	0x34
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3133 12cc 00       		.byte	0
  3134 12cd 03       		.uleb128 0x3
  3135 12ce 77140000 		.4byte	.LASF261
-ARM GAS  /tmp/cc6TEyCl.s 			page 56
+ARM GAS  /tmp/ccVuMkm8.s 			page 56
 
 
  3136 12d2 13       		.byte	0x13
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3190 133e 50130000 		.4byte	0x1350
  3191 1342 1C       		.byte	0x1c
  3192 1343 08       		.uleb128 0x8
-ARM GAS  /tmp/cc6TEyCl.s 			page 57
+ARM GAS  /tmp/ccVuMkm8.s 			page 57
 
 
  3193 1344 321A0000 		.4byte	.LASF271
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3247 13bc 0E       		.uleb128 0xe
  3248 13bd BA030000 		.4byte	0x3ba
  3249 13c1 0E       		.uleb128 0xe
-ARM GAS  /tmp/cc6TEyCl.s 			page 58
+ARM GAS  /tmp/ccVuMkm8.s 			page 58
 
 
  3250 13c2 72130000 		.4byte	0x1372
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3304 1434 AD000000 		.4byte	0xad
  3305 1438 09       		.byte	0x9
  3306 1439 08       		.uleb128 0x8
-ARM GAS  /tmp/cc6TEyCl.s 			page 59
+ARM GAS  /tmp/ccVuMkm8.s 			page 59
 
 
  3307 143a 69030000 		.4byte	.LASF279
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3361 14b6 0B       		.uleb128 0xb
  3362 14b7 04       		.byte	0x4
  3363 14b8 A2140000 		.4byte	0x14a2
-ARM GAS  /tmp/cc6TEyCl.s 			page 60
+ARM GAS  /tmp/ccVuMkm8.s 			page 60
 
 
  3364 14bc 20       		.uleb128 0x20
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3418 1534 05       		.byte	0x5
  3419 1535 22       		.uleb128 0x22
  3420 1536 BE1D0000 		.4byte	.LASF288
-ARM GAS  /tmp/cc6TEyCl.s 			page 61
+ARM GAS  /tmp/ccVuMkm8.s 			page 61
 
 
  3421 153a 06       		.byte	0x6
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3475 15a9 0E       		.uleb128 0xe
  3476 15aa E3000000 		.4byte	0xe3
  3477 15ae 0E       		.uleb128 0xe
-ARM GAS  /tmp/cc6TEyCl.s 			page 62
+ARM GAS  /tmp/ccVuMkm8.s 			page 62
 
 
  3478 15af 72130000 		.4byte	0x1372
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3532 1627 08       		.uleb128 0x8
  3533 1628 8C0C0000 		.4byte	.LASF296
  3534 162c 17       		.byte	0x17
-ARM GAS  /tmp/cc6TEyCl.s 			page 63
+ARM GAS  /tmp/ccVuMkm8.s 			page 63
 
 
  3535 162d B5       		.byte	0xb5
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3589 1692 AF       		.byte	0xaf
  3590 1693 EE000000 		.4byte	0xee
  3591 1697 10       		.byte	0x10
-ARM GAS  /tmp/cc6TEyCl.s 			page 64
+ARM GAS  /tmp/ccVuMkm8.s 			page 64
 
 
  3592 1698 18       		.uleb128 0x18
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3646 1701 C6020000 		.4byte	.LASF307
  3647 1705 17       		.byte	0x17
  3648 1706 C5       		.byte	0xc5
-ARM GAS  /tmp/cc6TEyCl.s 			page 65
+ARM GAS  /tmp/ccVuMkm8.s 			page 65
 
 
  3649 1707 E3000000 		.4byte	0xe3
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3703 1773 1C       		.byte	0x1c
  3704 1774 08       		.uleb128 0x8
  3705 1775 82010000 		.4byte	.LASF315
-ARM GAS  /tmp/cc6TEyCl.s 			page 66
+ARM GAS  /tmp/ccVuMkm8.s 			page 66
 
 
  3706 1779 17       		.byte	0x17
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3760 17e6 04       		.byte	0x4
  3761 17e7 E1160000 		.4byte	0x16e1
  3762 17eb 15       		.uleb128 0x15
-ARM GAS  /tmp/cc6TEyCl.s 			page 67
+ARM GAS  /tmp/ccVuMkm8.s 			page 67
 
 
  3763 17ec C01E0000 		.4byte	.LASF324
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3817 185f 00       		.byte	0
  3818 1860 22       		.uleb128 0x22
  3819 1861 FD010000 		.4byte	.LASF335
-ARM GAS  /tmp/cc6TEyCl.s 			page 68
+ARM GAS  /tmp/ccVuMkm8.s 			page 68
 
 
  3820 1865 01       		.byte	0x1
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3874 18da 0A       		.uleb128 0xa
  3875 18db 5D0C0000 		.4byte	.LASF344
  3876 18df 19       		.byte	0x19
-ARM GAS  /tmp/cc6TEyCl.s 			page 69
+ARM GAS  /tmp/ccVuMkm8.s 			page 69
 
 
  3877 18e0 BE01     		.2byte	0x1be
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3931 1955 64190000 		.4byte	0x1964
  3932 1959 0E       		.uleb128 0xe
  3933 195a 36190000 		.4byte	0x1936
-ARM GAS  /tmp/cc6TEyCl.s 			page 70
+ARM GAS  /tmp/ccVuMkm8.s 			page 70
 
 
  3934 195e 0E       		.uleb128 0xe
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  3988 19d0 E3000000 		.4byte	0xe3
  3989 19d4 18       		.byte	0x18
  3990 19d5 0A       		.uleb128 0xa
-ARM GAS  /tmp/cc6TEyCl.s 			page 71
+ARM GAS  /tmp/ccVuMkm8.s 			page 71
 
 
  3991 19d6 23010000 		.4byte	.LASF355
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4045 1a49 04       		.byte	0x4
  4046 1a4a 5D140000 		.4byte	0x145d
  4047 1a4e 15       		.uleb128 0x15
-ARM GAS  /tmp/cc6TEyCl.s 			page 72
+ARM GAS  /tmp/ccVuMkm8.s 			page 72
 
 
  4048 1a4f DF170000 		.4byte	.LASF361
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4102 1ac1 18       		.uleb128 0x18
  4103 1ac2 6D637200 		.ascii	"mcr\000"
  4104 1ac6 1B       		.byte	0x1b
-ARM GAS  /tmp/cc6TEyCl.s 			page 73
+ARM GAS  /tmp/ccVuMkm8.s 			page 73
 
 
  4105 1ac7 FA       		.byte	0xfa
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4159 1b3b 1B       		.byte	0x1b
  4160 1b3c 2A01     		.2byte	0x12a
  4161 1b3e CD120000 		.4byte	0x12cd
-ARM GAS  /tmp/cc6TEyCl.s 			page 74
+ARM GAS  /tmp/ccVuMkm8.s 			page 74
 
 
  4162 1b42 1C       		.byte	0x1c
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4216 1bb4 01       		.byte	0x1
  4217 1bb5 22       		.uleb128 0x22
  4218 1bb6 2C0E0000 		.4byte	.LASF382
-ARM GAS  /tmp/cc6TEyCl.s 			page 75
+ARM GAS  /tmp/ccVuMkm8.s 			page 75
 
 
  4219 1bba 02       		.byte	0x2
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4273 1c27 1101     		.2byte	0x111
  4274 1c29 E3000000 		.4byte	0xe3
  4275 1c2d 14       		.byte	0x14
-ARM GAS  /tmp/cc6TEyCl.s 			page 76
+ARM GAS  /tmp/ccVuMkm8.s 			page 76
 
 
  4276 1c2e 0A       		.uleb128 0xa
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4330 1ca5 1D       		.byte	0x1d
  4331 1ca6 8F01     		.2byte	0x18f
  4332 1ca8 191E0000 		.4byte	0x1e19
-ARM GAS  /tmp/cc6TEyCl.s 			page 77
+ARM GAS  /tmp/ccVuMkm8.s 			page 77
 
 
  4333 1cac 10       		.byte	0x10
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4387 1d1f 0D       		.uleb128 0xd
  4388 1d20 341D0000 		.4byte	0x1d34
  4389 1d24 0E       		.uleb128 0xe
-ARM GAS  /tmp/cc6TEyCl.s 			page 78
+ARM GAS  /tmp/ccVuMkm8.s 			page 78
 
 
  4390 1d25 341D0000 		.4byte	0x1d34
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4444 1d98 0A       		.uleb128 0xa
  4445 1d99 F7100000 		.4byte	.LASF350
  4446 1d9d 1D       		.byte	0x1d
-ARM GAS  /tmp/cc6TEyCl.s 			page 79
+ARM GAS  /tmp/ccVuMkm8.s 			page 79
 
 
  4447 1d9e 5601     		.2byte	0x156
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4501 1e13 0B       		.uleb128 0xb
  4502 1e14 04       		.byte	0x4
  4503 1e15 D91D0000 		.4byte	0x1dd9
-ARM GAS  /tmp/cc6TEyCl.s 			page 80
+ARM GAS  /tmp/ccVuMkm8.s 			page 80
 
 
  4504 1e19 0B       		.uleb128 0xb
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4558 1e86 1E1F0000 		.4byte	0x1f1e
  4559 1e8a 04       		.byte	0x4
  4560 1e8b 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 81
+ARM GAS  /tmp/ccVuMkm8.s 			page 81
 
 
  4561 1e8c 03       		.uleb128 0x3
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4615 1ef7 6A       		.byte	0x6a
  4616 1ef8 FE1E0000 		.4byte	0x1efe
  4617 1efc 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 82
+ARM GAS  /tmp/ccVuMkm8.s 			page 82
 
 
  4618 1efd 00       		.byte	0
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4672 1f6c 3C       		.byte	0x3c
  4673 1f6d 711F0000 		.4byte	0x1f71
  4674 1f71 0C       		.uleb128 0xc
-ARM GAS  /tmp/cc6TEyCl.s 			page 83
+ARM GAS  /tmp/ccVuMkm8.s 			page 83
 
 
  4675 1f72 B8170000 		.4byte	.LASF428
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4729 1fe4 9F01     		.2byte	0x19f
  4730 1fe6 EE000000 		.4byte	0xee
  4731 1fea 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 84
+ARM GAS  /tmp/ccVuMkm8.s 			page 84
 
 
  4732 1feb 09       		.uleb128 0x9
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4786 205f 09       		.uleb128 0x9
  4787 2060 50534300 		.ascii	"PSC\000"
  4788 2064 22       		.byte	0x22
-ARM GAS  /tmp/cc6TEyCl.s 			page 85
+ARM GAS  /tmp/ccVuMkm8.s 			page 85
 
 
  4789 2065 A901     		.2byte	0x1a9
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4843 20d9 B201     		.2byte	0x1b2
  4844 20db 8B0A0000 		.4byte	0xa8b
  4845 20df 58       		.byte	0x58
-ARM GAS  /tmp/cc6TEyCl.s 			page 86
+ARM GAS  /tmp/ccVuMkm8.s 			page 86
 
 
  4846 20e0 00       		.byte	0
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4900 2154 15       		.uleb128 0x15
  4901 2155 D9220000 		.4byte	.LASF446
  4902 2159 21       		.byte	0x21
-ARM GAS  /tmp/cc6TEyCl.s 			page 87
+ARM GAS  /tmp/ccVuMkm8.s 			page 87
 
 
  4903 215a F201     		.2byte	0x1f2
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  4957 21cb E2210000 		.4byte	0x21e2
  4958 21cf 22       		.uleb128 0x22
  4959 21d0 7D040000 		.4byte	.LASF457
-ARM GAS  /tmp/cc6TEyCl.s 			page 88
+ARM GAS  /tmp/ccVuMkm8.s 			page 88
 
 
  4960 21d4 01       		.byte	0x1
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5014 2243 24       		.byte	0x24
  5015 2244 8C01     		.2byte	0x18c
  5016 2246 0F220000 		.4byte	0x220f
-ARM GAS  /tmp/cc6TEyCl.s 			page 89
+ARM GAS  /tmp/ccVuMkm8.s 			page 89
 
 
  5017 224a 08       		.byte	0x8
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5071 22bf A9210000 		.4byte	0x21a9
  5072 22c3 24       		.byte	0x24
  5073 22c4 0A       		.uleb128 0xa
-ARM GAS  /tmp/cc6TEyCl.s 			page 90
+ARM GAS  /tmp/ccVuMkm8.s 			page 90
 
 
  5074 22c5 77080000 		.4byte	.LASF472
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5128 2337 22       		.uleb128 0x22
  5129 2338 07010000 		.4byte	.LASF479
  5130 233c 02       		.byte	0x2
-ARM GAS  /tmp/cc6TEyCl.s 			page 91
+ARM GAS  /tmp/ccVuMkm8.s 			page 91
 
 
  5131 233d 22       		.uleb128 0x22
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5185 23af C6010000 		.4byte	.LASF475
  5186 23b3 26       		.byte	0x26
  5187 23b4 3401     		.2byte	0x134
-ARM GAS  /tmp/cc6TEyCl.s 			page 92
+ARM GAS  /tmp/ccVuMkm8.s 			page 92
 
 
  5188 23b6 481A0000 		.4byte	0x1a48
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5242 2427 26       		.byte	0x26
  5243 2428 FF       		.byte	0xff
  5244 2429 03010000 		.4byte	0x103
-ARM GAS  /tmp/cc6TEyCl.s 			page 93
+ARM GAS  /tmp/ccVuMkm8.s 			page 93
 
 
  5245 242d 08       		.byte	0x8
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5299 249e 01       		.byte	0x1
  5300 249f 22       		.uleb128 0x22
  5301 24a0 C1100000 		.4byte	.LASF494
-ARM GAS  /tmp/cc6TEyCl.s 			page 94
+ARM GAS  /tmp/ccVuMkm8.s 			page 94
 
 
  5302 24a4 02       		.byte	0x2
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5356 2517 09       		.uleb128 0x9
  5357 2518 74696D00 		.ascii	"tim\000"
  5358 251c 28       		.byte	0x28
-ARM GAS  /tmp/cc6TEyCl.s 			page 95
+ARM GAS  /tmp/ccVuMkm8.s 			page 95
 
 
  5359 251d 9901     		.2byte	0x199
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5413 2593 4301     		.2byte	0x143
  5414 2595 25250000 		.4byte	0x2525
  5415 2599 04       		.byte	0x4
-ARM GAS  /tmp/cc6TEyCl.s 			page 96
+ARM GAS  /tmp/ccVuMkm8.s 			page 96
 
 
  5416 259a 00       		.byte	0
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5470 260e 00       		.byte	0
  5471 260f 1A       		.uleb128 0x1a
  5472 2610 980B0000 		.4byte	.LASF505
-ARM GAS  /tmp/cc6TEyCl.s 			page 97
+ARM GAS  /tmp/ccVuMkm8.s 			page 97
 
 
  5473 2614 28       		.byte	0x28
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5527 2688 8C260000 		.4byte	0x268c
  5528 268c 26       		.uleb128 0x26
  5529 268d E6200000 		.4byte	.LASF514
-ARM GAS  /tmp/cc6TEyCl.s 			page 98
+ARM GAS  /tmp/ccVuMkm8.s 			page 98
 
 
  5530 2691 5801     		.2byte	0x158
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5584 26fa 53443300 		.ascii	"SD3\000"
  5585 26fe 2A       		.byte	0x2a
  5586 26ff 1501     		.2byte	0x115
-ARM GAS  /tmp/cc6TEyCl.s 			page 99
+ARM GAS  /tmp/ccVuMkm8.s 			page 99
 
 
  5587 2701 81260000 		.4byte	0x2681
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5641 2770 1C       		.byte	0x1c
  5642 2771 00       		.byte	0
  5643 2772 05       		.uleb128 0x5
-ARM GAS  /tmp/cc6TEyCl.s 			page 100
+ARM GAS  /tmp/ccVuMkm8.s 			page 100
 
 
  5644 2773 05270000 		.4byte	0x2705
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5698 27e5 2C       		.byte	0x2c
  5699 27e6 F2       		.byte	0xf2
  5700 27e7 8E280000 		.4byte	0x288e
-ARM GAS  /tmp/cc6TEyCl.s 			page 101
+ARM GAS  /tmp/ccVuMkm8.s 			page 101
 
 
  5701 27eb 18       		.uleb128 0x18
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5755 2859 0A       		.uleb128 0xa
  5756 285a 13070000 		.4byte	.LASF343
  5757 285e 2C       		.byte	0x2c
-ARM GAS  /tmp/cc6TEyCl.s 			page 102
+ARM GAS  /tmp/ccVuMkm8.s 			page 102
 
 
  5758 285f 0C01     		.2byte	0x10c
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5812 28cc 04250000 		.4byte	.LASF540
  5813 28d0 2C       		.byte	0x2c
  5814 28d1 EC       		.byte	0xec
-ARM GAS  /tmp/cc6TEyCl.s 			page 103
+ARM GAS  /tmp/ccVuMkm8.s 			page 103
 
 
  5815 28d2 95150000 		.4byte	0x1595
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5869 293e 04       		.byte	0x4
  5870 293f 5A0C0000 		.4byte	0xc5a
  5871 2943 15       		.uleb128 0x15
-ARM GAS  /tmp/cc6TEyCl.s 			page 104
+ARM GAS  /tmp/ccVuMkm8.s 			page 104
 
 
  5872 2944 1F0A0000 		.4byte	.LASF546
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5926 29b8 04       		.byte	0x4
  5927 29b9 0A       		.uleb128 0xa
  5928 29ba 13070000 		.4byte	.LASF343
-ARM GAS  /tmp/cc6TEyCl.s 			page 105
+ARM GAS  /tmp/ccVuMkm8.s 			page 105
 
 
  5929 29be 2E       		.byte	0x2e
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  5983 2a32 0B       		.uleb128 0xb
  5984 2a33 04       		.byte	0x4
  5985 2a34 86290000 		.4byte	0x2986
-ARM GAS  /tmp/cc6TEyCl.s 			page 106
+ARM GAS  /tmp/ccVuMkm8.s 			page 106
 
 
  5986 2a38 19       		.uleb128 0x19
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6040 2aac 7701     		.2byte	0x177
  6041 2aae D02B0000 		.4byte	0x2bd0
  6042 2ab2 0A       		.uleb128 0xa
-ARM GAS  /tmp/cc6TEyCl.s 			page 107
+ARM GAS  /tmp/ccVuMkm8.s 			page 107
 
 
  6043 2ab3 ED150000 		.4byte	.LASF338
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6097 2b28 97170000 		.4byte	.LASF566
  6098 2b2c 30       		.byte	0x30
  6099 2b2d A501     		.2byte	0x1a5
-ARM GAS  /tmp/cc6TEyCl.s 			page 108
+ARM GAS  /tmp/ccVuMkm8.s 			page 108
 
 
  6100 2b2f 03010000 		.4byte	0x103
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6154 2ba4 E3000000 		.4byte	0xe3
  6155 2ba8 5C       		.byte	0x5c
  6156 2ba9 0A       		.uleb128 0xa
-ARM GAS  /tmp/cc6TEyCl.s 			page 109
+ARM GAS  /tmp/ccVuMkm8.s 			page 109
 
 
  6157 2baa 20080000 		.4byte	.LASF575
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6211 2c17 3E000000 		.4byte	0x3e
  6212 2c1b 2F       		.byte	0x2f
  6213 2c1c 1801     		.2byte	0x118
-ARM GAS  /tmp/cc6TEyCl.s 			page 110
+ARM GAS  /tmp/ccVuMkm8.s 			page 110
 
 
  6214 2c1e 4D2C0000 		.4byte	0x2c4d
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6268 2c8c 1A       		.uleb128 0x1a
  6269 2c8d 88190000 		.4byte	.LASF598
  6270 2c91 2F       		.byte	0x2f
-ARM GAS  /tmp/cc6TEyCl.s 			page 111
+ARM GAS  /tmp/ccVuMkm8.s 			page 111
 
 
  6271 2c92 2C01     		.2byte	0x12c
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6325 2d08 EA2C0000 		.4byte	0x2cea
  6326 2d0c 0E       		.uleb128 0xe
  6327 2d0d D02B0000 		.4byte	0x2bd0
-ARM GAS  /tmp/cc6TEyCl.s 			page 112
+ARM GAS  /tmp/ccVuMkm8.s 			page 112
 
 
  6328 2d11 00       		.byte	0
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6382 2d8c 20       		.byte	0x20
  6383 2d8d 31       		.byte	0x31
  6384 2d8e 35       		.byte	0x35
-ARM GAS  /tmp/cc6TEyCl.s 			page 113
+ARM GAS  /tmp/ccVuMkm8.s 			page 113
 
 
  6385 2d8f F42D0000 		.4byte	0x2df4
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6439 2dfb 8B2D0000 		.4byte	0x2d8b
  6440 2dff 17       		.uleb128 0x17
  6441 2e00 20       		.byte	0x20
-ARM GAS  /tmp/cc6TEyCl.s 			page 114
+ARM GAS  /tmp/ccVuMkm8.s 			page 114
 
 
  6442 2e01 31       		.byte	0x31
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6496 2e6d 31       		.byte	0x31
  6497 2e6e 53       		.byte	0x53
  6498 2e6f FF2D0000 		.4byte	0x2dff
-ARM GAS  /tmp/cc6TEyCl.s 			page 115
+ARM GAS  /tmp/ccVuMkm8.s 			page 115
 
 
  6499 2e73 17       		.uleb128 0x17
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6553 2edc 03       		.uleb128 0x3
  6554 2edd EF070000 		.4byte	.LASF627
  6555 2ee1 31       		.byte	0x31
-ARM GAS  /tmp/cc6TEyCl.s 			page 116
+ARM GAS  /tmp/ccVuMkm8.s 			page 116
 
 
  6556 2ee2 64       		.byte	0x64
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6610 2f51 1C       		.byte	0x1c
  6611 2f52 08       		.uleb128 0x8
  6612 2f53 02080000 		.4byte	.LASF636
-ARM GAS  /tmp/cc6TEyCl.s 			page 117
+ARM GAS  /tmp/ccVuMkm8.s 			page 117
 
 
  6613 2f57 31       		.byte	0x31
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6667 2fc3 31       		.byte	0x31
  6668 2fc4 7F       		.byte	0x7f
  6669 2fc5 EE000000 		.4byte	0xee
-ARM GAS  /tmp/cc6TEyCl.s 			page 118
+ARM GAS  /tmp/ccVuMkm8.s 			page 118
 
 
  6670 2fc9 0001     		.2byte	0x100
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6724 303e 1804     		.2byte	0x418
  6725 3040 27       		.uleb128 0x27
  6726 3041 FD1C0000 		.4byte	.LASF654
-ARM GAS  /tmp/cc6TEyCl.s 			page 119
+ARM GAS  /tmp/ccVuMkm8.s 			page 119
 
 
  6727 3045 31       		.byte	0x31
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6781 30b9 31       		.byte	0x31
  6782 30ba 99       		.byte	0x99
  6783 30bb EE000000 		.4byte	0xee
-ARM GAS  /tmp/cc6TEyCl.s 			page 120
+ARM GAS  /tmp/ccVuMkm8.s 			page 120
 
 
  6784 30bf 1008     		.2byte	0x810
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6838 3134 3408     		.2byte	0x834
  6839 3136 27       		.uleb128 0x27
  6840 3137 DE060000 		.4byte	.LASF672
-ARM GAS  /tmp/cc6TEyCl.s 			page 121
+ARM GAS  /tmp/ccVuMkm8.s 			page 121
 
 
  6841 313b 31       		.byte	0x31
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6895 31ae 31       		.byte	0x31
  6896 31af B4       		.byte	0xb4
  6897 31b0 82320000 		.4byte	0x3282
-ARM GAS  /tmp/cc6TEyCl.s 			page 122
+ARM GAS  /tmp/ccVuMkm8.s 			page 122
 
 
  6898 31b4 040E     		.2byte	0xe04
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  6952 3231 14       		.uleb128 0x14
  6953 3232 25000000 		.4byte	0x25
  6954 3236 3F       		.byte	0x3f
-ARM GAS  /tmp/cc6TEyCl.s 			page 123
+ARM GAS  /tmp/ccVuMkm8.s 			page 123
 
 
  6955 3237 00       		.byte	0
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7009 32b0 30       		.byte	0x30
  7010 32b1 C6       		.byte	0xc6
  7011 32b2 DB320000 		.4byte	0x32db
-ARM GAS  /tmp/cc6TEyCl.s 			page 124
+ARM GAS  /tmp/ccVuMkm8.s 			page 124
 
 
  7012 32b6 08       		.uleb128 0x8
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7066 331c 04       		.byte	0x4
  7067 331d 30       		.byte	0x30
  7068 331e DC       		.byte	0xdc
-ARM GAS  /tmp/cc6TEyCl.s 			page 125
+ARM GAS  /tmp/ccVuMkm8.s 			page 125
 
 
  7069 331f 3A330000 		.4byte	0x333a
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7123 338b 04       		.byte	0x4
  7124 338c 30       		.byte	0x30
  7125 338d 0101     		.2byte	0x101
-ARM GAS  /tmp/cc6TEyCl.s 			page 126
+ARM GAS  /tmp/ccVuMkm8.s 			page 126
 
 
  7126 338f A1330000 		.4byte	0x33a1
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7180 33fb 03010000 		.4byte	0x103
  7181 33ff 04       		.byte	0x4
  7182 3400 08       		.uleb128 0x8
-ARM GAS  /tmp/cc6TEyCl.s 			page 127
+ARM GAS  /tmp/ccVuMkm8.s 			page 127
 
 
  7183 3401 66080000 		.4byte	.LASF696
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7237 3475 30       		.byte	0x30
  7238 3476 3901     		.2byte	0x139
  7239 3478 C8000000 		.4byte	0xc8
-ARM GAS  /tmp/cc6TEyCl.s 			page 128
+ARM GAS  /tmp/ccVuMkm8.s 			page 128
 
 
  7240 347c 10       		.byte	0x10
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7294 34ed 122D0000 		.4byte	0x2d12
  7295 34f1 00       		.byte	0
  7296 34f2 0A       		.uleb128 0xa
-ARM GAS  /tmp/cc6TEyCl.s 			page 129
+ARM GAS  /tmp/ccVuMkm8.s 			page 129
 
 
  7297 34f3 0C220000 		.4byte	.LASF710
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7351 356c 14       		.uleb128 0x14
  7352 356d 25000000 		.4byte	0x25
  7353 3571 3E       		.byte	0x3e
-ARM GAS  /tmp/cc6TEyCl.s 			page 130
+ARM GAS  /tmp/ccVuMkm8.s 			page 130
 
 
  7354 3572 00       		.byte	0
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7408 35dc 32190000 		.4byte	.LASF725
  7409 35e0 07       		.byte	0x7
  7410 35e1 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 131
+ARM GAS  /tmp/ccVuMkm8.s 			page 131
 
 
  7411 35e2 03       		.uleb128 0x3
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7465 364e 52360000 		.4byte	0x3652
  7466 3652 0D       		.uleb128 0xd
  7467 3653 5D360000 		.4byte	0x365d
-ARM GAS  /tmp/cc6TEyCl.s 			page 132
+ARM GAS  /tmp/ccVuMkm8.s 			page 132
 
 
  7468 3657 0E       		.uleb128 0xe
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7522 36c2 E3000000 		.4byte	0xe3
  7523 36c6 10       		.byte	0x10
  7524 36c7 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 133
+ARM GAS  /tmp/ccVuMkm8.s 			page 133
 
 
  7525 36c8 03       		.uleb128 0x3
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7579 3734 03       		.uleb128 0x3
  7580 3735 8D120000 		.4byte	.LASF742
  7581 3739 33       		.byte	0x33
-ARM GAS  /tmp/cc6TEyCl.s 			page 134
+ARM GAS  /tmp/ccVuMkm8.s 			page 134
 
 
  7582 373a 17       		.byte	0x17
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7636 37aa A9       		.byte	0xa9
  7637 37ab B0370000 		.4byte	0x37b0
  7638 37af 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 135
+ARM GAS  /tmp/ccVuMkm8.s 			page 135
 
 
  7639 37b0 13       		.uleb128 0x13
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7693 381f 00       		.byte	0
  7694 3820 18       		.uleb128 0x18
  7695 3821 5F6B00   		.ascii	"_k\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 136
+ARM GAS  /tmp/ccVuMkm8.s 			page 136
 
 
  7696 3824 37       		.byte	0x37
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7750 388f 3A       		.byte	0x3a
  7751 3890 A6000000 		.4byte	0xa6
  7752 3894 04       		.byte	0x4
-ARM GAS  /tmp/cc6TEyCl.s 			page 137
+ARM GAS  /tmp/ccVuMkm8.s 			page 137
 
 
  7753 3895 08       		.uleb128 0x8
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7807 3902 00       		.byte	0
  7808 3903 08       		.uleb128 0x8
  7809 3904 09030000 		.4byte	.LASF773
-ARM GAS  /tmp/cc6TEyCl.s 			page 138
+ARM GAS  /tmp/ccVuMkm8.s 			page 138
 
 
  7810 3908 37       		.byte	0x37
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7864 3977 00       		.byte	0
  7865 3978 0B       		.uleb128 0xb
  7866 3979 04       		.byte	0x4
-ARM GAS  /tmp/cc6TEyCl.s 			page 139
+ARM GAS  /tmp/ccVuMkm8.s 			page 139
 
 
  7867 397a 3A390000 		.4byte	0x393a
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7921 39e6 37       		.byte	0x37
  7922 39e7 B8       		.byte	0xb8
  7923 39e8 A6000000 		.4byte	0xa6
-ARM GAS  /tmp/cc6TEyCl.s 			page 140
+ARM GAS  /tmp/ccVuMkm8.s 			page 140
 
 
  7924 39ec 08       		.byte	0x8
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  7978 3a58 2C       		.byte	0x2c
  7979 3a59 18       		.uleb128 0x18
  7980 3a5a 5F756200 		.ascii	"_ub\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 141
+ARM GAS  /tmp/ccVuMkm8.s 			page 141
 
 
  7981 3a5e 37       		.byte	0x37
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8035 3aca 37       		.byte	0x37
  8036 3acb E2       		.byte	0xe2
  8037 3acc EC370000 		.4byte	0x37ec
-ARM GAS  /tmp/cc6TEyCl.s 			page 142
+ARM GAS  /tmp/ccVuMkm8.s 			page 142
 
 
  8038 3ad0 58       		.byte	0x58
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8092 3b47 08       		.byte	0x8
  8093 3b48 0A       		.uleb128 0xa
  8094 3b49 90080000 		.4byte	.LASF803
-ARM GAS  /tmp/cc6TEyCl.s 			page 143
+ARM GAS  /tmp/ccVuMkm8.s 			page 143
 
 
  8095 3b4d 37       		.byte	0x37
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8149 3bc2 37       		.byte	0x37
  8150 3bc3 5002     		.2byte	0x250
  8151 3bc5 5B380000 		.4byte	0x385b
-ARM GAS  /tmp/cc6TEyCl.s 			page 144
+ARM GAS  /tmp/ccVuMkm8.s 			page 144
 
 
  8152 3bc9 48       		.byte	0x48
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8206 3c42 EC02     		.2byte	0x2ec
  8207 3c44 00       		.byte	0
  8208 3c45 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc6TEyCl.s 			page 145
+ARM GAS  /tmp/ccVuMkm8.s 			page 145
 
 
  8209 3c46 04       		.byte	0x4
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8263 3cc7 25000000 		.4byte	0x25
  8264 3ccb 00       		.byte	0
  8265 3ccc 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 146
+ARM GAS  /tmp/ccVuMkm8.s 			page 146
 
 
  8266 3ccd 1A       		.uleb128 0x1a
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8320 3d41 0A       		.uleb128 0xa
  8321 3d42 86160000 		.4byte	.LASF828
  8322 3d46 37       		.byte	0x37
-ARM GAS  /tmp/cc6TEyCl.s 			page 147
+ARM GAS  /tmp/ccVuMkm8.s 			page 147
 
 
  8323 3d47 4201     		.2byte	0x142
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8377 3dbb 37       		.byte	0x37
  8378 3dbc 6102     		.2byte	0x261
  8379 3dbe 1A3D0000 		.4byte	0x3d1a
-ARM GAS  /tmp/cc6TEyCl.s 			page 148
+ARM GAS  /tmp/ccVuMkm8.s 			page 148
 
 
  8380 3dc2 58       		.byte	0x58
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8434 3e37 B4       		.byte	0xb4
  8435 3e38 0A       		.uleb128 0xa
  8436 3e39 38130000 		.4byte	.LASF845
-ARM GAS  /tmp/cc6TEyCl.s 			page 149
+ARM GAS  /tmp/ccVuMkm8.s 			page 149
 
 
  8437 3e3d 37       		.byte	0x37
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8491 3eb2 78       		.byte	0x78
  8492 3eb3 00       		.byte	0
  8493 3eb4 13       		.uleb128 0x13
-ARM GAS  /tmp/cc6TEyCl.s 			page 150
+ARM GAS  /tmp/ccVuMkm8.s 			page 150
 
 
  8494 3eb5 BA390000 		.4byte	0x39ba
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8548 3f2d 0E       		.uleb128 0xe
  8549 3f2e A6000000 		.4byte	0xa6
  8550 3f32 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 151
+ARM GAS  /tmp/ccVuMkm8.s 			page 151
 
 
  8551 3f33 0B       		.uleb128 0xb
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8605 3fb6 01       		.uleb128 0x1
  8606 3fb7 9C       		.byte	0x9c
  8607 3fb8 CF3F0000 		.4byte	0x3fcf
-ARM GAS  /tmp/cc6TEyCl.s 			page 152
+ARM GAS  /tmp/ccVuMkm8.s 			page 152
 
 
  8608 3fbc 30       		.uleb128 0x30
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8662 4046 2C000000 		.4byte	.LFE263-.LFB263
  8663 404a 01       		.uleb128 0x1
  8664 404b 9C       		.byte	0x9c
-ARM GAS  /tmp/cc6TEyCl.s 			page 153
+ARM GAS  /tmp/ccVuMkm8.s 			page 153
 
 
  8665 404c 8B400000 		.4byte	0x408b
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8719 40b1 6E       		.byte	0x6e
  8720 40b2 3E000000 		.4byte	0x3e
  8721 40b6 95000000 		.4byte	.LLST15
-ARM GAS  /tmp/cc6TEyCl.s 			page 154
+ARM GAS  /tmp/ccVuMkm8.s 			page 154
 
 
  8722 40ba 33       		.uleb128 0x33
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8776 4132 F3       		.byte	0xf3
  8777 4133 01       		.uleb128 0x1
  8778 4134 51       		.byte	0x51
-ARM GAS  /tmp/cc6TEyCl.s 			page 155
+ARM GAS  /tmp/ccVuMkm8.s 			page 155
 
 
  8779 4135 00       		.byte	0
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8833 41b9 28000000 		.4byte	.LFE257-.LFB257
  8834 41bd 01       		.uleb128 0x1
  8835 41be 9C       		.byte	0x9c
-ARM GAS  /tmp/cc6TEyCl.s 			page 156
+ARM GAS  /tmp/ccVuMkm8.s 			page 156
 
 
  8836 41bf 07420000 		.4byte	0x4207
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8890 4234 01       		.byte	0x1
  8891 4235 07       		.byte	0x7
  8892 4236 25000000 		.4byte	0x25
-ARM GAS  /tmp/cc6TEyCl.s 			page 157
+ARM GAS  /tmp/ccVuMkm8.s 			page 157
 
 
  8893 423a 0C020000 		.4byte	.LLST1
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  8947 42c4 01       		.uleb128 0x1
  8948 42c5 51       		.byte	0x51
  8949 42c6 02       		.uleb128 0x2
-ARM GAS  /tmp/cc6TEyCl.s 			page 158
+ARM GAS  /tmp/ccVuMkm8.s 			page 158
 
 
  8950 42c7 77       		.byte	0x77
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9004 4330 39       		.byte	0x39
  9005 4331 3A       		.uleb128 0x3a
  9006 4332 43080000 		.4byte	.LASF882
-ARM GAS  /tmp/cc6TEyCl.s 			page 159
+ARM GAS  /tmp/ccVuMkm8.s 			page 159
 
 
  9007 4336 43080000 		.4byte	.LASF882
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9061 43ab 7C1F0000 		.4byte	.LASF893
  9062 43af 7C1F0000 		.4byte	.LASF893
  9063 43b3 34       		.byte	0x34
-ARM GAS  /tmp/cc6TEyCl.s 			page 160
+ARM GAS  /tmp/ccVuMkm8.s 			page 160
 
 
  9064 43b4 28       		.byte	0x28
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9118 0032 03       		.uleb128 0x3
  9119 0033 08       		.uleb128 0x8
  9120 0034 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 161
+ARM GAS  /tmp/ccVuMkm8.s 			page 161
 
 
  9121 0035 00       		.byte	0
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9175 006b 49       		.uleb128 0x49
  9176 006c 13       		.uleb128 0x13
  9177 006d 38       		.uleb128 0x38
-ARM GAS  /tmp/cc6TEyCl.s 			page 162
+ARM GAS  /tmp/ccVuMkm8.s 			page 162
 
 
  9178 006e 0B       		.uleb128 0xb
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9232 00a4 49       		.uleb128 0x49
  9233 00a5 13       		.uleb128 0x13
  9234 00a6 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 163
+ARM GAS  /tmp/ccVuMkm8.s 			page 163
 
 
  9235 00a7 00       		.byte	0
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9289 00dd 01       		.uleb128 0x1
  9290 00de 01       		.byte	0x1
  9291 00df 49       		.uleb128 0x49
-ARM GAS  /tmp/cc6TEyCl.s 			page 164
+ARM GAS  /tmp/ccVuMkm8.s 			page 164
 
 
  9292 00e0 13       		.uleb128 0x13
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9346 0116 0B       		.uleb128 0xb
  9347 0117 3B       		.uleb128 0x3b
  9348 0118 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc6TEyCl.s 			page 165
+ARM GAS  /tmp/ccVuMkm8.s 			page 165
 
 
  9349 0119 01       		.uleb128 0x1
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9403 014f 01       		.uleb128 0x1
  9404 0150 13       		.uleb128 0x13
  9405 0151 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 166
+ARM GAS  /tmp/ccVuMkm8.s 			page 166
 
 
  9406 0152 00       		.byte	0
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9460 0188 19       		.uleb128 0x19
  9461 0189 00       		.byte	0
  9462 018a 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 167
+ARM GAS  /tmp/ccVuMkm8.s 			page 167
 
 
  9463 018b 20       		.uleb128 0x20
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9517 01c1 0B       		.uleb128 0xb
  9518 01c2 0B       		.uleb128 0xb
  9519 01c3 0B       		.uleb128 0xb
-ARM GAS  /tmp/cc6TEyCl.s 			page 168
+ARM GAS  /tmp/ccVuMkm8.s 			page 168
 
 
  9520 01c4 49       		.uleb128 0x49
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9574 01fa 01       		.uleb128 0x1
  9575 01fb 13       		.uleb128 0x13
  9576 01fc 00       		.byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 169
+ARM GAS  /tmp/ccVuMkm8.s 			page 169
 
 
  9577 01fd 00       		.byte	0
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9631 0233 03       		.uleb128 0x3
  9632 0234 0E       		.uleb128 0xe
  9633 0235 3C       		.uleb128 0x3c
-ARM GAS  /tmp/cc6TEyCl.s 			page 170
+ARM GAS  /tmp/ccVuMkm8.s 			page 170
 
 
  9634 0236 19       		.uleb128 0x19
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9688 0272 00       		.byte	0
  9689 0273 32       		.uleb128 0x32
  9690 0274 2E       		.uleb128 0x2e
-ARM GAS  /tmp/cc6TEyCl.s 			page 171
+ARM GAS  /tmp/ccVuMkm8.s 			page 171
 
 
  9691 0275 01       		.byte	0x1
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9745 02af 8A8201   		.uleb128 0x410a
  9746 02b2 00       		.byte	0
  9747 02b3 02       		.uleb128 0x2
-ARM GAS  /tmp/cc6TEyCl.s 			page 172
+ARM GAS  /tmp/ccVuMkm8.s 			page 172
 
 
  9748 02b4 18       		.uleb128 0x18
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9802 02ed 0B       		.uleb128 0xb
  9803 02ee 49       		.uleb128 0x49
  9804 02ef 13       		.uleb128 0x13
-ARM GAS  /tmp/cc6TEyCl.s 			page 173
+ARM GAS  /tmp/ccVuMkm8.s 			page 173
 
 
  9805 02f0 02       		.uleb128 0x2
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9859 0029 0100     		.2byte	0x1
  9860 002b 50       		.byte	0x50
  9861 002c 18000000 		.4byte	.LVL55
-ARM GAS  /tmp/cc6TEyCl.s 			page 174
+ARM GAS  /tmp/ccVuMkm8.s 			page 174
 
 
  9862 0030 22000000 		.4byte	.LVL56
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9916 00ac 51       		.byte	0x51
  9917 00ad 9F       		.byte	0x9f
  9918 00ae 1C000000 		.4byte	.LVL52
-ARM GAS  /tmp/cc6TEyCl.s 			page 175
+ARM GAS  /tmp/ccVuMkm8.s 			page 175
 
 
  9919 00b2 1F000000 		.4byte	.LVL53-1
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  9973 0132 0100     		.2byte	0x1
  9974 0134 51       		.byte	0x51
  9975 0135 11000000 		.4byte	.LVL47-1
-ARM GAS  /tmp/cc6TEyCl.s 			page 176
+ARM GAS  /tmp/ccVuMkm8.s 			page 176
 
 
  9976 0139 22000000 		.4byte	.LVL48
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10030 01b8 23000000 		.4byte	.LVL40-1
  10031 01bc 0100     		.2byte	0x1
  10032 01be 51       		.byte	0x51
-ARM GAS  /tmp/cc6TEyCl.s 			page 177
+ARM GAS  /tmp/ccVuMkm8.s 			page 177
 
 
  10033 01bf 23000000 		.4byte	.LVL40-1
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10087 0245 51       		.byte	0x51
  10088 0246 00000000 		.4byte	0
  10089 024a 00000000 		.4byte	0
-ARM GAS  /tmp/cc6TEyCl.s 			page 178
+ARM GAS  /tmp/ccVuMkm8.s 			page 178
 
 
  10090              	.LLST2:
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10144 02ad 91       		.byte	0x91
  10145 02ae 00       		.sleb128 0
  10146 02af 06       		.byte	0x6
-ARM GAS  /tmp/cc6TEyCl.s 			page 179
+ARM GAS  /tmp/ccVuMkm8.s 			page 179
 
 
  10147 02b0 F7       		.byte	0xf7
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10201 0309 25       		.uleb128 0x25
  10202 030a 75       		.byte	0x75
  10203 030b 00       		.sleb128 0
-ARM GAS  /tmp/cc6TEyCl.s 			page 180
+ARM GAS  /tmp/ccVuMkm8.s 			page 180
 
 
  10204 030c F7       		.byte	0xf7
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10258 036a 01       		.uleb128 0x1
  10259 036b 53       		.byte	0x53
  10260 036c F7       		.byte	0xf7
-ARM GAS  /tmp/cc6TEyCl.s 			page 181
+ARM GAS  /tmp/ccVuMkm8.s 			page 181
 
 
  10261 036d 25       		.uleb128 0x25
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10315 03c6 F3       		.byte	0xf3
  10316 03c7 01       		.uleb128 0x1
  10317 03c8 53       		.byte	0x53
-ARM GAS  /tmp/cc6TEyCl.s 			page 182
+ARM GAS  /tmp/ccVuMkm8.s 			page 182
 
 
  10318 03c9 F7       		.byte	0xf7
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10372 0420 91       		.byte	0x91
  10373 0421 00       		.sleb128 0
  10374 0422 2C000000 		.4byte	.LVL4
-ARM GAS  /tmp/cc6TEyCl.s 			page 183
+ARM GAS  /tmp/ccVuMkm8.s 			page 183
 
 
  10375 0426 36000000 		.4byte	.LVL8
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10429 04ad 0F00     		.2byte	0xf
  10430 04af 31       		.byte	0x31
  10431 04b0 91       		.byte	0x91
-ARM GAS  /tmp/cc6TEyCl.s 			page 184
+ARM GAS  /tmp/ccVuMkm8.s 			page 184
 
 
  10432 04b1 08       		.sleb128 8
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10486 0518 80       		.byte	0x80
  10487 0519 9F       		.byte	0x9f
  10488 051a 9E000000 		.4byte	.LVL34
-ARM GAS  /tmp/cc6TEyCl.s 			page 185
+ARM GAS  /tmp/ccVuMkm8.s 			page 185
 
 
  10489 051e A8000000 		.4byte	.LFE256
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10543 0058 00000000 		.4byte	.LFB265
  10544 005c 28000000 		.4byte	.LFE265-.LFB265
  10545 0060 00000000 		.4byte	.LFB266
-ARM GAS  /tmp/cc6TEyCl.s 			page 186
+ARM GAS  /tmp/ccVuMkm8.s 			page 186
 
 
  10546 0064 24000000 		.4byte	.LFE266-.LFB266
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10588              	.LASF235:
  10589 0027 63685F70 		.ascii	"ch_ptrsize\000"
  10589      74727369 
-ARM GAS  /tmp/cc6TEyCl.s 			page 187
+ARM GAS  /tmp/ccVuMkm8.s 			page 187
 
 
  10589      7A6500
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10614              	.LASF365:
  10615 00c0 43414E5F 		.ascii	"CAN_STOP\000"
  10615      53544F50 
-ARM GAS  /tmp/cc6TEyCl.s 			page 188
+ARM GAS  /tmp/ccVuMkm8.s 			page 188
 
 
  10615      00
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10646              	.LASF82:
  10647 014a 76745F73 		.ascii	"vt_systime\000"
  10647      79737469 
-ARM GAS  /tmp/cc6TEyCl.s 			page 189
+ARM GAS  /tmp/ccVuMkm8.s 			page 189
 
 
  10647      6D6500
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10680              	.LASF475:
  10681 01c6 646D6174 		.ascii	"dmatx\000"
  10681      7800
-ARM GAS  /tmp/cc6TEyCl.s 			page 190
+ARM GAS  /tmp/ccVuMkm8.s 			page 190
 
 
  10682              	.LASF712:
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10711 0256 4843494E 		.ascii	"HCINT\000"
  10711      5400
  10712              	.LASF98:
-ARM GAS  /tmp/cc6TEyCl.s 			page 191
+ARM GAS  /tmp/ccVuMkm8.s 			page 191
 
 
  10713 025c 534D5052 		.ascii	"SMPR1\000"
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10743      78787878 
  10743      5F736574 
  10743      5F6D6972 
-ARM GAS  /tmp/cc6TEyCl.s 			page 192
+ARM GAS  /tmp/ccVuMkm8.s 			page 192
 
 
  10743      726F7200 
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10770              	.LASF466:
  10771 0386 636C6F63 		.ascii	"clock_speed\000"
  10771      6B5F7370 
-ARM GAS  /tmp/cc6TEyCl.s 			page 193
+ARM GAS  /tmp/ccVuMkm8.s 			page 193
 
 
  10771      65656400 
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10799 0419 716E6F74 		.ascii	"qnotify_t\000"
  10799      6966795F 
  10799      7400
-ARM GAS  /tmp/cc6TEyCl.s 			page 194
+ARM GAS  /tmp/ccVuMkm8.s 			page 194
 
 
  10800              	.LASF331:
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10827      70726F63 
  10828 04cd 5F74696D 		.ascii	"_timer/e_common.c\000"
  10828      65722F65 
-ARM GAS  /tmp/cc6TEyCl.s 			page 195
+ARM GAS  /tmp/ccVuMkm8.s 			page 195
 
 
  10828      5F636F6D 
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10854 0569 726C6973 		.ascii	"rlist\000"
  10854      7400
  10855              	.LASF59:
-ARM GAS  /tmp/cc6TEyCl.s 			page 196
+ARM GAS  /tmp/ccVuMkm8.s 			page 196
 
 
  10856 056f 74687265 		.ascii	"threads_list_t\000"
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10881              	.LASF874:
  10882 05ff 7A6F6F6D 		.ascii	"zoom_fact_width\000"
  10882      5F666163 
-ARM GAS  /tmp/cc6TEyCl.s 			page 197
+ARM GAS  /tmp/ccVuMkm8.s 			page 197
 
 
  10882      745F7769 
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10908      00
  10909              	.LASF445:
  10910 0697 47505443 		.ascii	"GPTConfig\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 198
+ARM GAS  /tmp/ccVuMkm8.s 			page 198
 
 
  10910      6F6E6669 
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10938 0723 73657475 		.ascii	"setup\000"
  10938      7000
  10939              	.LASF547:
-ARM GAS  /tmp/cc6TEyCl.s 			page 199
+ARM GAS  /tmp/ccVuMkm8.s 			page 199
 
 
  10940 0729 5350495F 		.ascii	"SPI_UNINIT\000"
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10969              	.LASF4:
  10970 07af 5F5F696E 		.ascii	"__int16_t\000"
  10970      7431365F 
-ARM GAS  /tmp/cc6TEyCl.s 			page 200
+ARM GAS  /tmp/ccVuMkm8.s 			page 200
 
 
  10970      7400
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  10997              	.LASF882:
  10998 0843 7370695F 		.ascii	"spi_comm_suspend\000"
  10998      636F6D6D 
-ARM GAS  /tmp/cc6TEyCl.s 			page 201
+ARM GAS  /tmp/ccVuMkm8.s 			page 201
 
 
  10998      5F737573 
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11026 08d1 7478646D 		.ascii	"txdmamode\000"
  11026      616D6F64 
  11026      6500
-ARM GAS  /tmp/cc6TEyCl.s 			page 202
+ARM GAS  /tmp/ccVuMkm8.s 			page 202
 
 
  11027              	.LASF441:
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11053              	.LASF180:
  11054 0969 4649464F 		.ascii	"FIFO\000"
  11054      00
-ARM GAS  /tmp/cc6TEyCl.s 			page 203
+ARM GAS  /tmp/ccVuMkm8.s 			page 203
 
 
  11055              	.LASF201:
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11081              	.LASF875:
  11082 09fa 7A6F6F6D 		.ascii	"zoom_fact_height\000"
  11082      5F666163 
-ARM GAS  /tmp/cc6TEyCl.s 			page 204
+ARM GAS  /tmp/ccVuMkm8.s 			page 204
 
 
  11082      745F6865 
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11114 0a7c 5F777269 		.ascii	"_write\000"
  11114      746500
  11115              	.LASF184:
-ARM GAS  /tmp/cc6TEyCl.s 			page 205
+ARM GAS  /tmp/ccVuMkm8.s 			page 205
 
 
  11116 0a83 54584352 		.ascii	"TXCRCR\000"
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11144 0b03 424C4B5F 		.ascii	"BLK_ACTIVE\000"
  11144      41435449 
  11144      564500
-ARM GAS  /tmp/cc6TEyCl.s 			page 206
+ARM GAS  /tmp/ccVuMkm8.s 			page 206
 
 
  11145              	.LASF767:
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11171              	.LASF505:
  11172 0b98 50574D43 		.ascii	"PWMConfig\000"
  11172      6F6E6669 
-ARM GAS  /tmp/cc6TEyCl.s 			page 207
+ARM GAS  /tmp/ccVuMkm8.s 			page 207
 
 
  11172      6700
@@ -12418,7 +12418,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11200      725F7400 
  11201              	.LASF703:
  11202 0c29 6F75745F 		.ascii	"out_maxsize\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 208
+ARM GAS  /tmp/ccVuMkm8.s 			page 208
 
 
  11202      6D617873 
@@ -12478,7 +12478,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11234 0caa 63685F73 		.ascii	"ch_swc_event_t\000"
  11234      77635F65 
  11234      76656E74 
-ARM GAS  /tmp/cc6TEyCl.s 			page 209
+ARM GAS  /tmp/ccVuMkm8.s 			page 209
 
 
  11234      5F7400
@@ -12538,7 +12538,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11264      6E745F74 
  11264      00
  11265              	.LASF671:
-ARM GAS  /tmp/cc6TEyCl.s 			page 210
+ARM GAS  /tmp/ccVuMkm8.s 			page 210
 
 
  11266 0d47 44494550 		.ascii	"DIEPEMPMSK\000"
@@ -12598,7 +12598,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11293              	.LASF449:
  11294 0de2 4932435F 		.ascii	"I2C_STOP\000"
  11294      53544F50 
-ARM GAS  /tmp/cc6TEyCl.s 			page 211
+ARM GAS  /tmp/ccVuMkm8.s 			page 211
 
 
  11294      00
@@ -12658,7 +12658,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11322      69766572 
  11322      564D5400 
  11323              	.LASF590:
-ARM GAS  /tmp/cc6TEyCl.s 			page 212
+ARM GAS  /tmp/ccVuMkm8.s 			page 212
 
 
  11324 0e7b 5553425F 		.ascii	"USB_EP0_ERROR\000"
@@ -12718,7 +12718,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11350 0f18 474E5520 		.ascii	"GNU C11 7.2.1 20170904 (release) [ARM/embedded-7-br"
  11350      43313120 
  11350      372E322E 
-ARM GAS  /tmp/cc6TEyCl.s 			page 213
+ARM GAS  /tmp/ccVuMkm8.s 			page 213
 
 
  11350      31203230 
@@ -12778,7 +12778,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11368      7900
  11369              	.LASF276:
  11370 1095 69666372 		.ascii	"ifcr\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 214
+ARM GAS  /tmp/ccVuMkm8.s 			page 214
 
 
  11370      00
@@ -12838,7 +12838,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11397              	.LASF263:
  11398 1130 696F5F71 		.ascii	"io_queue\000"
  11398      75657565 
-ARM GAS  /tmp/cc6TEyCl.s 			page 215
+ARM GAS  /tmp/ccVuMkm8.s 			page 215
 
 
  11398      00
@@ -12898,7 +12898,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11425              	.LASF332:
  11426 11cb 61646373 		.ascii	"adcsample_t\000"
  11426      616D706C 
-ARM GAS  /tmp/cc6TEyCl.s 			page 216
+ARM GAS  /tmp/ccVuMkm8.s 			page 216
 
 
  11426      655F7400 
@@ -12958,7 +12958,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11456      7365745F 
  11456      6D697272 
  11456      6F7200
-ARM GAS  /tmp/cc6TEyCl.s 			page 217
+ARM GAS  /tmp/ccVuMkm8.s 			page 217
 
 
  11457              	.LASF517:
@@ -13018,7 +13018,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11484      41435449 
  11484      564500
  11485              	.LASF780:
-ARM GAS  /tmp/cc6TEyCl.s 			page 218
+ARM GAS  /tmp/ccVuMkm8.s 			page 218
 
 
  11486 12fa 5F626173 		.ascii	"_base\000"
@@ -13078,7 +13078,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11512      636E7400 
  11513              	.LASF580:
  11514 138a 5553425F 		.ascii	"USB_READY\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 219
+ARM GAS  /tmp/ccVuMkm8.s 			page 219
 
 
  11514      52454144 
@@ -13138,7 +13138,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11542      4E464947 
  11542      55524544 
  11543              	.LASF543:
-ARM GAS  /tmp/cc6TEyCl.s 			page 220
+ARM GAS  /tmp/ccVuMkm8.s 			page 220
 
 
  11544 1423 64697363 		.ascii	"disconnect\000"
@@ -13198,7 +13198,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11572 14ad 5F736565 		.ascii	"_seek\000"
  11572      6B00
  11573              	.LASF595:
-ARM GAS  /tmp/cc6TEyCl.s 			page 221
+ARM GAS  /tmp/ccVuMkm8.s 			page 221
 
 
  11574 14b3 5553425F 		.ascii	"USB_EVENT_SUSPEND\000"
@@ -13258,7 +13258,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11600      7400
  11601              	.LASF569:
  11602 1546 73746174 		.ascii	"status\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 222
+ARM GAS  /tmp/ccVuMkm8.s 			page 222
 
 
  11602      757300
@@ -13318,7 +13318,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11628      5F7400
  11629              	.LASF383:
  11630 15e2 4441435F 		.ascii	"DAC_ACTIVE\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 223
+ARM GAS  /tmp/ccVuMkm8.s 			page 223
 
 
  11630      41435449 
@@ -13378,7 +13378,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11657              	.LASF443:
  11658 1690 63616C6C 		.ascii	"callback\000"
  11658      6261636B 
-ARM GAS  /tmp/cc6TEyCl.s 			page 224
+ARM GAS  /tmp/ccVuMkm8.s 			page 224
 
 
  11658      00
@@ -13438,7 +13438,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11684      73746174 
  11684      655F7400 
  11685              	.LASF620:
-ARM GAS  /tmp/cc6TEyCl.s 			page 225
+ARM GAS  /tmp/ccVuMkm8.s 			page 225
 
 
  11686 172b 44494550 		.ascii	"DIEPTSIZ\000"
@@ -13498,7 +13498,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11716 17ad 646D6169 		.ascii	"dmairqprio\000"
  11716      72717072 
  11716      696F00
-ARM GAS  /tmp/cc6TEyCl.s 			page 226
+ARM GAS  /tmp/ccVuMkm8.s 			page 226
 
 
  11717              	.LASF428:
@@ -13558,7 +13558,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11750      6500
  11751              	.LASF834:
  11752 1836 5F72616E 		.ascii	"_rand_next\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 227
+ARM GAS  /tmp/ccVuMkm8.s 			page 227
 
 
  11752      645F6E65 
@@ -13618,7 +13618,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11781              	.LASF22:
  11782 18bf 6C6F6E67 		.ascii	"long double\000"
  11782      20646F75 
-ARM GAS  /tmp/cc6TEyCl.s 			page 228
+ARM GAS  /tmp/ccVuMkm8.s 			page 228
 
 
  11782      626C6500 
@@ -13678,7 +13678,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11810      616D706C 
  11810      655F7400 
  11811              	.LASF593:
-ARM GAS  /tmp/cc6TEyCl.s 			page 229
+ARM GAS  /tmp/ccVuMkm8.s 			page 229
 
 
  11812 1959 5553425F 		.ascii	"USB_EVENT_ADDRESS\000"
@@ -13738,7 +13738,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11840      5F777269 
  11840      74655F63 
  11840      616D5F72 
-ARM GAS  /tmp/cc6TEyCl.s 			page 230
+ARM GAS  /tmp/ccVuMkm8.s 			page 230
 
 
  11841              	.LASF395:
@@ -13798,7 +13798,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11870 1a82 5F617465 		.ascii	"_atexit0\000"
  11870      78697430 
  11870      00
-ARM GAS  /tmp/cc6TEyCl.s 			page 231
+ARM GAS  /tmp/ccVuMkm8.s 			page 231
 
 
  11871              	.LASF312:
@@ -13858,7 +13858,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11896 1b24 636E745F 		.ascii	"cnt_t\000"
  11896      7400
  11897              	.LASF413:
-ARM GAS  /tmp/cc6TEyCl.s 			page 232
+ARM GAS  /tmp/ccVuMkm8.s 			page 232
 
 
  11898 1b2a 65787473 		.ascii	"extstate_t\000"
@@ -13918,7 +13918,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11925              	.LASF447:
  11926 1bbe 47505444 		.ascii	"GPTD11\000"
  11926      313100
-ARM GAS  /tmp/cc6TEyCl.s 			page 233
+ARM GAS  /tmp/ccVuMkm8.s 			page 233
 
 
  11927              	.LASF836:
@@ -13978,7 +13978,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11950 1c64 4441435F 		.ascii	"DAC_TypeDef\000"
  11950      54797065 
  11950      44656600 
-ARM GAS  /tmp/cc6TEyCl.s 			page 234
+ARM GAS  /tmp/ccVuMkm8.s 			page 234
 
 
  11951              	.LASF217:
@@ -14038,7 +14038,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  11978 1cfd 72657376 		.ascii	"resvd41C\000"
  11978      64343143 
  11978      00
-ARM GAS  /tmp/cc6TEyCl.s 			page 235
+ARM GAS  /tmp/ccVuMkm8.s 			page 235
 
 
  11979              	.LASF753:
@@ -14098,7 +14098,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12005              	.LASF265:
  12006 1d96 715F636F 		.ascii	"q_counter\000"
  12006      756E7465 
-ARM GAS  /tmp/cc6TEyCl.s 			page 236
+ARM GAS  /tmp/ccVuMkm8.s 			page 236
 
 
  12006      7200
@@ -14158,7 +14158,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12034      78787878 
  12034      5F696E69 
  12034      745F6361 
-ARM GAS  /tmp/cc6TEyCl.s 			page 237
+ARM GAS  /tmp/ccVuMkm8.s 			page 237
 
 
  12034      6D00
@@ -14218,7 +14218,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12062      64656661 
  12062      756C745F 
  12062      636F6E66 
-ARM GAS  /tmp/cc6TEyCl.s 			page 238
+ARM GAS  /tmp/ccVuMkm8.s 			page 238
 
 
  12062      696700
@@ -14278,7 +14278,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12089              	.LASF181:
  12090 1f68 5344494F 		.ascii	"SDIO_TypeDef\000"
  12090      5F547970 
-ARM GAS  /tmp/cc6TEyCl.s 			page 239
+ARM GAS  /tmp/ccVuMkm8.s 			page 239
 
 
  12090      65446566 
@@ -14338,7 +14338,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12118      583400
  12119              	.LASF74:
  12120 2003 63685F76 		.ascii	"ch_virtual_timer\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 240
+ARM GAS  /tmp/ccVuMkm8.s 			page 240
 
 
  12120      69727475 
@@ -14398,7 +14398,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12148 2090 70757064 		.ascii	"pupdr\000"
  12148      7200
  12149              	.LASF399:
-ARM GAS  /tmp/cc6TEyCl.s 			page 241
+ARM GAS  /tmp/ccVuMkm8.s 			page 241
 
 
  12150 2096 64616365 		.ascii	"dacerrorcallback_t\000"
@@ -14458,7 +14458,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12178      52454144 
  12178      5900
  12179              	.LASF754:
-ARM GAS  /tmp/cc6TEyCl.s 			page 242
+ARM GAS  /tmp/ccVuMkm8.s 			page 242
 
 
  12180 211a 5F666C6F 		.ascii	"_flock_t\000"
@@ -14518,7 +14518,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12206      7400
  12207              	.LASF644:
  12208 21ac 48505458 		.ascii	"HPTXFSIZ\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 243
+ARM GAS  /tmp/ccVuMkm8.s 			page 243
 
 
  12208      4653495A 
@@ -14578,7 +14578,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12232      00
  12233              	.LASF537:
  12234 224a 6275735F 		.ascii	"bus_width\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 244
+ARM GAS  /tmp/ccVuMkm8.s 			page 244
 
 
  12234      77696474 
@@ -14638,7 +14638,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12262      3600
  12263              	.LASF715:
  12264 22df 44434D49 		.ascii	"DCMI_ERR_DMAFAILURE\000"
-ARM GAS  /tmp/cc6TEyCl.s 			page 245
+ARM GAS  /tmp/ccVuMkm8.s 			page 245
 
 
  12264      5F455252 
@@ -14698,7 +14698,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12288 2378 696E5F73 		.ascii	"in_state\000"
  12288      74617465 
  12288      00
-ARM GAS  /tmp/cc6TEyCl.s 			page 246
+ARM GAS  /tmp/ccVuMkm8.s 			page 246
 
 
  12289              	.LASF188:
@@ -14758,7 +14758,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12319              	.LASF578:
  12320 23fd 5553425F 		.ascii	"USB_UNINIT\000"
  12320      554E494E 
-ARM GAS  /tmp/cc6TEyCl.s 			page 247
+ARM GAS  /tmp/ccVuMkm8.s 			page 247
 
 
  12320      495400
@@ -14818,7 +14818,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12349              	.LASF483:
  12350 2492 49325344 		.ascii	"I2SDriver\000"
  12350      72697665 
-ARM GAS  /tmp/cc6TEyCl.s 			page 248
+ARM GAS  /tmp/ccVuMkm8.s 			page 248
 
 
  12350      7200
@@ -14878,7 +14878,7 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12379              	.LASF163:
  12380 252c 4F415232 		.ascii	"OAR2\000"
  12380      00
-ARM GAS  /tmp/cc6TEyCl.s 			page 249
+ARM GAS  /tmp/ccVuMkm8.s 			page 249
 
 
  12381              	.LASF57:
@@ -14889,47 +14889,47 @@ ARM GAS  /tmp/cc6TEyCl.s 			page 1
  12384      74617465 
  12384      5F7400
  12385              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-ARM GAS  /tmp/cc6TEyCl.s 			page 250
+ARM GAS  /tmp/ccVuMkm8.s 			page 250
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 e_common.c
-     /tmp/cc6TEyCl.s:18     .text.e_poxxxx_config_cam:0000000000000000 $t
-     /tmp/cc6TEyCl.s:26     .text.e_poxxxx_config_cam:0000000000000000 e_poxxxx_config_cam
-     /tmp/cc6TEyCl.s:190    .text.e_poxxxx_config_cam:00000000000000a4 $d
-     /tmp/cc6TEyCl.s:195    .text.e_poxxxx_set_mirror:0000000000000000 $t
-     /tmp/cc6TEyCl.s:203    .text.e_poxxxx_set_mirror:0000000000000000 e_poxxxx_set_mirror
-     /tmp/cc6TEyCl.s:246    .text.e_poxxxx_set_mirror:0000000000000024 $d
-     /tmp/cc6TEyCl.s:251    .text.e_poxxxx_write_cam_registers:0000000000000000 $t
-     /tmp/cc6TEyCl.s:259    .text.e_poxxxx_write_cam_registers:0000000000000000 e_poxxxx_write_cam_registers
-     /tmp/cc6TEyCl.s:291    .text.e_poxxxx_write_cam_registers:000000000000001c $d
-     /tmp/cc6TEyCl.s:296    .text.e_poxxxx_init_cam:0000000000000000 $t
-     /tmp/cc6TEyCl.s:304    .text.e_poxxxx_init_cam:0000000000000000 e_poxxxx_init_cam
-     /tmp/cc6TEyCl.s:340    .text.e_poxxxx_init_cam:0000000000000020 $d
-     /tmp/cc6TEyCl.s:345    .text.e_poxxxx_get_orientation:0000000000000000 $t
-     /tmp/cc6TEyCl.s:353    .text.e_poxxxx_get_orientation:0000000000000000 e_poxxxx_get_orientation
-     /tmp/cc6TEyCl.s:386    .text.e_poxxxx_get_orientation:0000000000000020 $d
-     /tmp/cc6TEyCl.s:391    .text.e_poxxxx_set_awb_ae:0000000000000000 $t
-     /tmp/cc6TEyCl.s:399    .text.e_poxxxx_set_awb_ae:0000000000000000 e_poxxxx_set_awb_ae
-     /tmp/cc6TEyCl.s:452    .text.e_poxxxx_set_awb_ae:000000000000002c $d
-     /tmp/cc6TEyCl.s:457    .text.e_poxxxx_set_rgb_gain:0000000000000000 $t
-     /tmp/cc6TEyCl.s:465    .text.e_poxxxx_set_rgb_gain:0000000000000000 e_poxxxx_set_rgb_gain
-     /tmp/cc6TEyCl.s:506    .text.e_poxxxx_set_rgb_gain:0000000000000020 $d
-     /tmp/cc6TEyCl.s:511    .text.e_poxxxx_set_exposure:0000000000000000 $t
-     /tmp/cc6TEyCl.s:519    .text.e_poxxxx_set_exposure:0000000000000000 e_poxxxx_set_exposure
-     /tmp/cc6TEyCl.s:561    .text.e_poxxxx_set_exposure:0000000000000028 $d
-     /tmp/cc6TEyCl.s:566    .text.getCameraVersion:0000000000000000 $t
-     /tmp/cc6TEyCl.s:574    .text.getCameraVersion:0000000000000000 getCameraVersion
-     /tmp/cc6TEyCl.s:610    .text.getCameraVersion:0000000000000020 $d
-     /tmp/cc6TEyCl.s:615    .text.e_poxxxx_launch_capture:0000000000000000 $t
-     /tmp/cc6TEyCl.s:623    .text.e_poxxxx_launch_capture:0000000000000000 e_poxxxx_launch_capture
-     /tmp/cc6TEyCl.s:667    .text.e_poxxxx_launch_capture:0000000000000024 $d
-     /tmp/cc6TEyCl.s:672    .text.e_poxxxx_is_img_ready:0000000000000000 $t
-     /tmp/cc6TEyCl.s:680    .text.e_poxxxx_is_img_ready:0000000000000000 e_poxxxx_is_img_ready
-     /tmp/cc6TEyCl.s:716    .text.e_poxxxx_is_img_ready:0000000000000020 $d
-     /tmp/cc6TEyCl.s:721    .text.e_poxxxx_wait_img_ready:0000000000000000 $t
-     /tmp/cc6TEyCl.s:729    .text.e_poxxxx_wait_img_ready:0000000000000000 e_poxxxx_wait_img_ready
-     /tmp/cc6TEyCl.s:772    .text.e_poxxxx_wait_img_ready:0000000000000024 $d
+     /tmp/ccVuMkm8.s:18     .text.e_poxxxx_config_cam:0000000000000000 $t
+     /tmp/ccVuMkm8.s:26     .text.e_poxxxx_config_cam:0000000000000000 e_poxxxx_config_cam
+     /tmp/ccVuMkm8.s:190    .text.e_poxxxx_config_cam:00000000000000a4 $d
+     /tmp/ccVuMkm8.s:195    .text.e_poxxxx_set_mirror:0000000000000000 $t
+     /tmp/ccVuMkm8.s:203    .text.e_poxxxx_set_mirror:0000000000000000 e_poxxxx_set_mirror
+     /tmp/ccVuMkm8.s:246    .text.e_poxxxx_set_mirror:0000000000000024 $d
+     /tmp/ccVuMkm8.s:251    .text.e_poxxxx_write_cam_registers:0000000000000000 $t
+     /tmp/ccVuMkm8.s:259    .text.e_poxxxx_write_cam_registers:0000000000000000 e_poxxxx_write_cam_registers
+     /tmp/ccVuMkm8.s:291    .text.e_poxxxx_write_cam_registers:000000000000001c $d
+     /tmp/ccVuMkm8.s:296    .text.e_poxxxx_init_cam:0000000000000000 $t
+     /tmp/ccVuMkm8.s:304    .text.e_poxxxx_init_cam:0000000000000000 e_poxxxx_init_cam
+     /tmp/ccVuMkm8.s:340    .text.e_poxxxx_init_cam:0000000000000020 $d
+     /tmp/ccVuMkm8.s:345    .text.e_poxxxx_get_orientation:0000000000000000 $t
+     /tmp/ccVuMkm8.s:353    .text.e_poxxxx_get_orientation:0000000000000000 e_poxxxx_get_orientation
+     /tmp/ccVuMkm8.s:386    .text.e_poxxxx_get_orientation:0000000000000020 $d
+     /tmp/ccVuMkm8.s:391    .text.e_poxxxx_set_awb_ae:0000000000000000 $t
+     /tmp/ccVuMkm8.s:399    .text.e_poxxxx_set_awb_ae:0000000000000000 e_poxxxx_set_awb_ae
+     /tmp/ccVuMkm8.s:452    .text.e_poxxxx_set_awb_ae:000000000000002c $d
+     /tmp/ccVuMkm8.s:457    .text.e_poxxxx_set_rgb_gain:0000000000000000 $t
+     /tmp/ccVuMkm8.s:465    .text.e_poxxxx_set_rgb_gain:0000000000000000 e_poxxxx_set_rgb_gain
+     /tmp/ccVuMkm8.s:506    .text.e_poxxxx_set_rgb_gain:0000000000000020 $d
+     /tmp/ccVuMkm8.s:511    .text.e_poxxxx_set_exposure:0000000000000000 $t
+     /tmp/ccVuMkm8.s:519    .text.e_poxxxx_set_exposure:0000000000000000 e_poxxxx_set_exposure
+     /tmp/ccVuMkm8.s:561    .text.e_poxxxx_set_exposure:0000000000000028 $d
+     /tmp/ccVuMkm8.s:566    .text.getCameraVersion:0000000000000000 $t
+     /tmp/ccVuMkm8.s:574    .text.getCameraVersion:0000000000000000 getCameraVersion
+     /tmp/ccVuMkm8.s:610    .text.getCameraVersion:0000000000000020 $d
+     /tmp/ccVuMkm8.s:615    .text.e_poxxxx_launch_capture:0000000000000000 $t
+     /tmp/ccVuMkm8.s:623    .text.e_poxxxx_launch_capture:0000000000000000 e_poxxxx_launch_capture
+     /tmp/ccVuMkm8.s:667    .text.e_poxxxx_launch_capture:0000000000000024 $d
+     /tmp/ccVuMkm8.s:672    .text.e_poxxxx_is_img_ready:0000000000000000 $t
+     /tmp/ccVuMkm8.s:680    .text.e_poxxxx_is_img_ready:0000000000000000 e_poxxxx_is_img_ready
+     /tmp/ccVuMkm8.s:716    .text.e_poxxxx_is_img_ready:0000000000000020 $d
+     /tmp/ccVuMkm8.s:721    .text.e_poxxxx_wait_img_ready:0000000000000000 $t
+     /tmp/ccVuMkm8.s:729    .text.e_poxxxx_wait_img_ready:0000000000000000 e_poxxxx_wait_img_ready
+     /tmp/ccVuMkm8.s:772    .text.e_poxxxx_wait_img_ready:0000000000000024 $d
 
 UNDEFINED SYMBOLS
 cam_advanced_config
@@ -14949,6 +14949,6 @@ dcmi_capture_start
 image_is_ready
 wait_image_ready
 spi_comm_resume
-ARM GAS  /tmp/cc6TEyCl.s 			page 251
+ARM GAS  /tmp/ccVuMkm8.s 			page 251
 
 
