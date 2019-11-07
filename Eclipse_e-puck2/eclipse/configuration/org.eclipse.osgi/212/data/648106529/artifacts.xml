@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='update site: file:/home/parallels/Desktop/Eclipse_e-puck2/eclipse/p2/org.eclipse.equinox.p2.core/cache/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1573117420558'/>
+    <property name='p2.timestamp' value='1573135739266'/>
     <property name='site.checksum' value='0'/>
   </properties>
   <mappings size='3'>

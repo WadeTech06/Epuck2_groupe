@@ -89,13 +89,13 @@ void Face_Object() {
 // looks at the distance of an object and follow it at a distance. 
 void Follow_Object() {
 	int driveSpeed = 500;
-	if (VL53L0X_get_dist_mm() >= 36 && VL53L0X_get_dist_mm() <= 64) {
+	if (VL53L0X_get_dist_mm() >= 50 && VL53L0X_get_dist_mm() <= 100) {
 		left_motor_set_speed(0);
 		right_motor_set_speed(0);
-	} else if (VL53L0X_get_dist_mm() > 64) {
+	} else if (VL53L0X_get_dist_mm() > 100) {
 		left_motor_set_speed(driveSpeed);
 		right_motor_set_speed(driveSpeed);
-	} else if (VL53L0X_get_dist_mm() < 36) {
+	} else if (VL53L0X_get_dist_mm() < 50) {
 		left_motor_set_speed(driveSpeed * -1);
 		right_motor_set_speed(driveSpeed * -1);
 	}
@@ -105,6 +105,10 @@ void Turn_Puck(int sensor, int speed) {
 	// if sensors are on the right side turn right
 //	case 0:
 	case 1:
+		left_motor_set_speed(75);
+		right_motor_set_speed(75 * -1);
+		chThdSleepMilliseconds(500);
+		break;
 	case 2:
 	case 3:
 		left_motor_set_speed(speed);
@@ -113,9 +117,14 @@ void Turn_Puck(int sensor, int speed) {
 		break;
 
 		// if sensors are on the left side turn left
-	case 5:
+//
 	case 6:
+		left_motor_set_speed(-75);
+		right_motor_set_speed(75);
+		chThdSleepMilliseconds(500);
+		break;
 	case 4:
+	case 5:
 //	case 7:
 		left_motor_set_speed(speed * -1);
 		right_motor_set_speed(speed);
@@ -140,7 +149,6 @@ int main(void) {
 	serial_start();
 	VL53L0X_start();
 
-
 //	dcmi_start();
 //	spi_comm_start();
 //	cam_start();
@@ -150,7 +158,7 @@ int main(void) {
 //	dcmi_prepare();
 //	chThdSleepMilliseconds(1000);
 	int turningSpeed = 350;
-	int sensorThreshold = 100;
+	int sensorThreshold = 80;
 	char str[100];
 	int str_length;
 	/* Infinite loop. */
@@ -163,17 +171,26 @@ int main(void) {
 //		Face_Object();
 //		chThdSleepMilliseconds(500);
 
-		//TODO: fix turning radius, create acceleration
+//TODO: fix turning radius, create acceleration
 		for (int i = 0; i <= 7; i++) {
 
 //			// add selector to control debugging logs
 			str_length = sprintf(str, "Prox Sensor %d: %d\n", i, get_prox(i));
 			e_send_uart1_char(str, str_length);
 
-			if (get_prox(i) >= sensorThreshold) {
+			if (i == 0 || i == 6) {
+				if (get_prox(i) >= 500) {
+					Turn_Puck(i, turningSpeed);
+				}
+			} else if (get_prox(i) >= sensorThreshold) {
 				Turn_Puck(i, turningSpeed);
 			}
+
 		}
+		chThdSleepMilliseconds(300);
+		str_length = sprintf(str, "Distance Sensor: %d\n",
+				VL53L0X_get_dist_mm());
+		e_send_uart1_char(str, str_length);
 		Follow_Object();
 		chThdSleepMilliseconds(500);
 	}

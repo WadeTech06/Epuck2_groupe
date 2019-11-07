@@ -52,6 +52,17 @@ void Turn_Puck(int sensor, int speed) {
 		break;
 	}
 }
+
+void Fail_Safe(int speed) {
+	left_motor_set_speed(speed * -1);
+	right_motor_set_speed(speed);
+
+	do {
+
+		chThdSleepMilliseconds(500);
+	} while (get_prox(0) != 0 && get_prox(7) != 0);
+
+}
 //TODO:
 // gradually increase Initial speed when close to a wall
 // handling narrow rooms
@@ -73,8 +84,8 @@ int main(void) {
 	int forwardSpeed = 500;
 	int turningSpeed = 350;
 	//TODO set threshold
-	int sensorThreshold = 100;
-	int randDirectionCount = 0;
+	int sensorThreshold = 75;
+	int failsafecount = 0;
 
 	Set_Speed(forwardSpeed);
 
@@ -87,45 +98,37 @@ int main(void) {
 		// checks for walls; if a wall is near turn opposite direction
 		for (int i = 0; i <= 7; i++) {
 
-//			// add selector to control debugging logs
-//			str_length = sprintf(str, "Prox Sensor %d: %d\n", i, get_prox(i));
-//			e_send_uart1_char(str, str_length);
+		// add selector to control debugging logs
+			str_length = sprintf(str, "fail count: %d\n",failsafecount );
+			e_send_uart1_char(str, str_length);
 
 			if (get_prox(i) >= sensorThreshold) {
 				//Set_Speed(0);
 				//chThdSleepMilliseconds(500);
 				Turn_Puck(i, turningSpeed);
-				randDirectionCount = 0;
+				failsafecount++;
 			} else {
 				if (left_motor_get_desired_speed() != forwardSpeed
-						&& right_motor_get_desired_speed() != forwardSpeed)
+						&& right_motor_get_desired_speed() != forwardSpeed) {
 					Set_Speed(forwardSpeed);
+					failsafecount = 0;
+				}
 			}
 		}
 
-		// after moving without detection of a wall for 3 seconds change to random direction
-//		if (randDirectionCount > 3) {
-////			str_length = sprintf(str, "Turning random direction\n");
-////			e_send_uart1_char(str, str_length);
-//
-////			Set_Speed(0);
-////			chThdSleepMilliseconds(500);
-//			Turn_Puck(-1, turningSpeed);
-//			int sleep = (rand() % 5) * 1000;
-//			chThdSleepMilliseconds(sleep);
-//			//Set_Speed(forwardSpeed);
-//			randDirectionCount = 0;
-//		}
-
 		//waits 1 second
 		chThdSleepMilliseconds(500);
-		randDirectionCount++;
+		if (failsafecount == 6) {
+			Fail_Safe(turningSpeed);
+			failsafecount = 0;
+			Set_Speed(forwardSpeed);
+		}
 	}
 }
 
 #define STACK_CHK_GUARD 0xe2dee396
-uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
+	uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
 
-void __stack_chk_fail(void) {
-	chSysHalt("Stack smashing detected");
-}
+	void __stack_chk_fail(void) {
+		chSysHalt("Stack smashing detected");
+	}

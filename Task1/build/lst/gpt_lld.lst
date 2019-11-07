@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cchoAtMX.s 			page 1
+ARM GAS  /tmp/ccQYScAg.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
   55              		.loc 1 733 0
   56 0016 C168     		ldr	r1, [r0, #12]
   57              	.LBE5:
-ARM GAS  /tmp/cchoAtMX.s 			page 2
+ARM GAS  /tmp/ccQYScAg.s 			page 2
 
 
   58              	.LBE4:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  112              		.global	Vector118
  113              		.syntax unified
  114              		.thumb
-ARM GAS  /tmp/cchoAtMX.s 			page 3
+ARM GAS  /tmp/ccQYScAg.s 			page 3
 
 
  115              		.thumb_func
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  169 0034 00000000 		.word	__stack_chk_guard
  170 0038 00000000 		.word	.LANCHOR0
  171              		.cfi_endproc
-ARM GAS  /tmp/cchoAtMX.s 			page 4
+ARM GAS  /tmp/ccQYScAg.s 			page 4
 
 
  172              	.LFE257:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  226              	.LVL15:
  227              	.L21:
  228              		.cfi_restore_state
-ARM GAS  /tmp/cchoAtMX.s 			page 5
+ARM GAS  /tmp/ccQYScAg.s 			page 5
 
 
  229 002e FFF7FEFF 		bl	__stack_chk_fail
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  283 001c 0949     		ldr	r1, .L29+16
  284 001e C160     		str	r1, [r0, #12]
  285              		.loc 1 456 0
-ARM GAS  /tmp/cchoAtMX.s 			page 6
+ARM GAS  /tmp/ccQYScAg.s 			page 6
 
 
  286 0020 9A42     		cmp	r2, r3
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  340              		.loc 1 479 0
  341 0006 3268     		ldr	r2, [r6]
  342 0008 82B0     		sub	sp, sp, #8
-ARM GAS  /tmp/cchoAtMX.s 			page 7
+ARM GAS  /tmp/ccQYScAg.s 			page 7
 
 
  343              		.cfi_def_cfa_offset 24
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  397              		.cfi_def_cfa_offset 16
  398              		@ sp needed
  399 005a 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  /tmp/cchoAtMX.s 			page 8
+ARM GAS  /tmp/ccQYScAg.s 			page 8
 
 
  400              	.LVL24:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  454              	.LVL29:
  455              		.loc 1 535 0
  456 00aa 084B     		ldr	r3, .L40+24
-ARM GAS  /tmp/cchoAtMX.s 			page 9
+ARM GAS  /tmp/ccQYScAg.s 			page 9
 
 
  457 00ac A360     		str	r3, [r4, #8]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  511              	.L42:
  512              		.loc 1 699 0
  513 0010 019A     		ldr	r2, [sp, #4]
-ARM GAS  /tmp/cchoAtMX.s 			page 10
+ARM GAS  /tmp/ccQYScAg.s 			page 10
 
 
  514 0012 2368     		ldr	r3, [r4]
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  568 0050 136C     		ldr	r3, [r2, #64]
  569 0052 23F01003 		bic	r3, r3, #16
  570 0056 1364     		str	r3, [r2, #64]
-ARM GAS  /tmp/cchoAtMX.s 			page 11
+ARM GAS  /tmp/ccQYScAg.s 			page 11
 
 
  571 0058 DAE7     		b	.L42
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  625              		.loc 1 713 0
  626 0016 C168     		ldr	r1, [r0, #12]
  627 0018 0022     		movs	r2, #0
-ARM GAS  /tmp/cchoAtMX.s 			page 12
+ARM GAS  /tmp/ccQYScAg.s 			page 12
 
 
  628 001a 4A62     		str	r2, [r1, #36]
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  682              	.LVL45:
  683 0000 00B5     		push	{lr}
  684              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/cchoAtMX.s 			page 13
+ARM GAS  /tmp/ccQYScAg.s 			page 13
 
 
  685              		.cfi_offset 14, -4
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  739              		.cfi_startproc
  740              		@ args = 0, pretend = 0, frame = 8
  741              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cchoAtMX.s 			page 14
+ARM GAS  /tmp/ccQYScAg.s 			page 14
 
 
  742              	.LVL47:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  796 0038 00000000 		.word	__stack_chk_guard
  797              		.cfi_endproc
  798              	.LFE264:
-ARM GAS  /tmp/cchoAtMX.s 			page 15
+ARM GAS  /tmp/ccQYScAg.s 			page 15
 
 
  799              		.size	gpt_lld_polled_delay, .-gpt_lld_polled_delay
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  844              		.file 21 "../e-puck2_main-processor/ChibiOS//os/hal/ports/STM32/STM32F4xx/stm32_dma.h"
  845              		.file 22 "../e-puck2_main-processor/ChibiOS//os/hal/include/hal_ioblock.h"
  846              		.file 23 "../e-puck2_main-processor/ChibiOS//os/hal/ports/STM32/LLD/GPIOv2/pal_lld.h"
-ARM GAS  /tmp/cchoAtMX.s 			page 16
+ARM GAS  /tmp/ccQYScAg.s 			page 16
 
 
  847              		.file 24 "../e-puck2_main-processor/ChibiOS//os/hal/include/adc.h"
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  901 003a C7110000 		.4byte	.LASF0
  902 003e 04       		.uleb128 0x4
  903 003f 08       		.byte	0x8
-ARM GAS  /tmp/cchoAtMX.s 			page 17
+ARM GAS  /tmp/ccQYScAg.s 			page 17
 
 
  904 0040 05       		.byte	0x5
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  958 00a9 3A0D0000 		.4byte	.LASF14
  959 00ad 03       		.uleb128 0x3
  960 00ae 240D0000 		.4byte	.LASF15
-ARM GAS  /tmp/cchoAtMX.s 			page 18
+ARM GAS  /tmp/ccQYScAg.s 			page 18
 
 
  961 00b2 03       		.byte	0x3
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1015 0127 0A010000 		.4byte	0x10a
  1016 012b 03       		.uleb128 0x3
  1017 012c 6A180000 		.4byte	.LASF25
-ARM GAS  /tmp/cchoAtMX.s 			page 19
+ARM GAS  /tmp/ccQYScAg.s 			page 19
 
 
  1018 0130 05       		.byte	0x5
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1072 01a5 99010000 		.4byte	0x199
  1073 01a9 03       		.uleb128 0x3
  1074 01aa 0F140000 		.4byte	.LASF36
-ARM GAS  /tmp/cchoAtMX.s 			page 20
+ARM GAS  /tmp/ccQYScAg.s 			page 20
 
 
  1075 01ae 06       		.byte	0x6
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1129 021a D8       		.byte	0xd8
  1130 021b 0F120000 		.4byte	0x120f
  1131 021f 1C       		.byte	0x1c
-ARM GAS  /tmp/cchoAtMX.s 			page 21
+ARM GAS  /tmp/ccQYScAg.s 			page 21
 
 
  1132 0220 08       		.uleb128 0x8
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1186 0290 0A       		.uleb128 0xa
  1187 0291 D30B0000 		.4byte	.LASF53
  1188 0295 07       		.byte	0x7
-ARM GAS  /tmp/cchoAtMX.s 			page 22
+ARM GAS  /tmp/ccQYScAg.s 			page 22
 
 
  1189 0296 4601     		.2byte	0x146
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1243 0307 03       		.uleb128 0x3
  1244 0308 2B060000 		.4byte	.LASF62
  1245 030c 06       		.byte	0x6
-ARM GAS  /tmp/cchoAtMX.s 			page 23
+ARM GAS  /tmp/ccQYScAg.s 			page 23
 
 
  1246 030d 50       		.byte	0x50
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1300 037e DD020000 		.4byte	0x2dd
  1301 0382 10       		.byte	0x10
  1302 0383 0A       		.uleb128 0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 24
+ARM GAS  /tmp/ccQYScAg.s 			page 24
 
 
  1303 0384 27190000 		.4byte	.LASF70
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1357 03f6 99010000 		.4byte	0x199
  1358 03fa 08       		.byte	0x8
  1359 03fb 0A       		.uleb128 0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 25
+ARM GAS  /tmp/ccQYScAg.s 			page 25
 
 
  1360 03fc 660B0000 		.4byte	.LASF78
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1414 046f A11A0000 		.4byte	.LASF84
  1415 0473 1404     		.2byte	0x414
  1416 0475 07       		.byte	0x7
-ARM GAS  /tmp/cchoAtMX.s 			page 26
+ARM GAS  /tmp/ccQYScAg.s 			page 26
 
 
  1417 0476 A201     		.2byte	0x1a2
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1471 04ec 63040000 		.4byte	0x463
  1472 04f0 2C       		.byte	0x2c
  1473 04f1 11       		.uleb128 0x11
-ARM GAS  /tmp/cchoAtMX.s 			page 27
+ARM GAS  /tmp/ccQYScAg.s 			page 27
 
 
  1474 04f2 36170000 		.4byte	.LASF93
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1528 0569 535200   		.ascii	"SR\000"
  1529 056c 0A       		.byte	0xa
  1530 056d C6       		.byte	0xc6
-ARM GAS  /tmp/cchoAtMX.s 			page 28
+ARM GAS  /tmp/ccQYScAg.s 			page 28
 
 
  1531 056e 00010000 		.4byte	0x100
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1585 05da 00010000 		.4byte	0x100
  1586 05de 24       		.byte	0x24
  1587 05df 18       		.uleb128 0x18
-ARM GAS  /tmp/cchoAtMX.s 			page 29
+ARM GAS  /tmp/ccQYScAg.s 			page 29
 
 
  1588 05e0 4C545200 		.ascii	"LTR\000"
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1642 064c 445200   		.ascii	"DR\000"
  1643 064f 0A       		.byte	0xa
  1644 0650 D9       		.byte	0xd9
-ARM GAS  /tmp/cchoAtMX.s 			page 30
+ARM GAS  /tmp/ccQYScAg.s 			page 30
 
 
  1645 0651 00010000 		.4byte	0x100
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1699 06ba 08       		.uleb128 0x8
  1700 06bb 751E0000 		.4byte	.LASF117
  1701 06bf 0A       		.byte	0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 31
+ARM GAS  /tmp/ccQYScAg.s 			page 31
 
 
  1702 06c0 F8       		.byte	0xf8
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1756 0730 00       		.byte	0
  1757 0731 09       		.uleb128 0x9
  1758 0732 4D535200 		.ascii	"MSR\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 32
+ARM GAS  /tmp/ccQYScAg.s 			page 32
 
 
  1759 0736 0A       		.byte	0xa
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1813 07ac 0A       		.byte	0xa
  1814 07ad 1701     		.2byte	0x117
  1815 07af 70080000 		.4byte	0x870
-ARM GAS  /tmp/cchoAtMX.s 			page 33
+ARM GAS  /tmp/ccQYScAg.s 			page 33
 
 
  1816 07b3 B001     		.2byte	0x1b0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1870 0831 1C02     		.2byte	0x21c
  1871 0833 11       		.uleb128 0x11
  1872 0834 12080000 		.4byte	.LASF135
-ARM GAS  /tmp/cchoAtMX.s 			page 34
+ARM GAS  /tmp/ccQYScAg.s 			page 34
 
 
  1873 0838 0A       		.byte	0xa
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1927 08af 3601     		.2byte	0x136
  1928 08b1 6A090000 		.4byte	0x96a
  1929 08b5 09       		.uleb128 0x9
-ARM GAS  /tmp/cchoAtMX.s 			page 35
+ARM GAS  /tmp/ccQYScAg.s 			page 35
 
 
  1930 08b6 435200   		.ascii	"CR\000"
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  1984 092a 571B0000 		.4byte	.LASF146
  1985 092e 0A       		.byte	0xa
  1986 092f 4101     		.2byte	0x141
-ARM GAS  /tmp/cchoAtMX.s 			page 36
+ARM GAS  /tmp/ccQYScAg.s 			page 36
 
 
  1987 0931 00010000 		.4byte	0x100
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2041 09a4 08       		.byte	0x8
  2042 09a5 0A       		.uleb128 0xa
  2043 09a6 50190000 		.4byte	.LASF152
-ARM GAS  /tmp/cchoAtMX.s 			page 37
+ARM GAS  /tmp/ccQYScAg.s 			page 37
 
 
  2044 09aa 0A       		.byte	0xa
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2098 0a1f 4202     		.2byte	0x242
  2099 0a21 00010000 		.4byte	0x100
  2100 0a25 04       		.byte	0x4
-ARM GAS  /tmp/cchoAtMX.s 			page 38
+ARM GAS  /tmp/ccQYScAg.s 			page 38
 
 
  2101 0a26 0A       		.uleb128 0xa
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2155 0a9a 19       		.uleb128 0x19
  2156 0a9b 88       		.byte	0x88
  2157 0a9c 0A       		.byte	0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 39
+ARM GAS  /tmp/ccQYScAg.s 			page 39
 
 
  2158 0a9d 6702     		.2byte	0x267
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2212 0b12 00010000 		.4byte	0x100
  2213 0b16 20       		.byte	0x20
  2214 0b17 0A       		.uleb128 0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 40
+ARM GAS  /tmp/ccQYScAg.s 			page 40
 
 
  2215 0b18 82100000 		.4byte	.LASF166
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2269 0b8d C2060000 		.4byte	.LASF172
  2270 0b91 0A       		.byte	0xa
  2271 0b92 7B02     		.2byte	0x27b
-ARM GAS  /tmp/cchoAtMX.s 			page 41
+ARM GAS  /tmp/ccQYScAg.s 			page 41
 
 
  2272 0b94 00010000 		.4byte	0x100
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2326 0c09 29050000 		.4byte	0x529
  2327 0c0d 78       		.byte	0x78
  2328 0c0e 0A       		.uleb128 0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 42
+ARM GAS  /tmp/ccQYScAg.s 			page 42
 
 
  2329 0c0f 17100000 		.4byte	.LASF179
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2383 0c84 0A       		.byte	0xa
  2384 0c85 C602     		.2byte	0x2c6
  2385 0c87 05010000 		.4byte	0x105
-ARM GAS  /tmp/cchoAtMX.s 			page 43
+ARM GAS  /tmp/ccQYScAg.s 			page 43
 
 
  2386 0c8b 14       		.byte	0x14
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2440 0d00 38       		.byte	0x38
  2441 0d01 0A       		.uleb128 0xa
  2442 0d02 B3190000 		.4byte	.LASF193
-ARM GAS  /tmp/cchoAtMX.s 			page 44
+ARM GAS  /tmp/ccQYScAg.s 			page 44
 
 
  2443 0d06 0A       		.byte	0xa
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2497 0d7a 0A       		.byte	0xa
  2498 0d7b DE02     		.2byte	0x2de
  2499 0d7d 00010000 		.4byte	0x100
-ARM GAS  /tmp/cchoAtMX.s 			page 45
+ARM GAS  /tmp/ccQYScAg.s 			page 45
 
 
  2500 0d81 04       		.byte	0x4
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2554 0df1 09       		.uleb128 0x9
  2555 0df2 535200   		.ascii	"SR\000"
  2556 0df5 0A       		.byte	0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 46
+ARM GAS  /tmp/ccQYScAg.s 			page 46
 
 
  2557 0df6 0B03     		.2byte	0x30b
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2611 0e6c 03       		.uleb128 0x3
  2612 0e6d 60060000 		.4byte	.LASF205
  2613 0e71 0B       		.byte	0xb
-ARM GAS  /tmp/cchoAtMX.s 			page 47
+ARM GAS  /tmp/ccQYScAg.s 			page 47
 
 
  2614 0e72 65       		.byte	0x65
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2668 0ede 6C0E0000 		.4byte	0xe6c
  2669 0ee2 10       		.byte	0x10
  2670 0ee3 18       		.uleb128 0x18
-ARM GAS  /tmp/cchoAtMX.s 			page 48
+ARM GAS  /tmp/ccQYScAg.s 			page 48
 
 
  2671 0ee4 73323100 		.ascii	"s21\000"
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2725 0f54 73333000 		.ascii	"s30\000"
  2726 0f58 0C       		.byte	0xc
  2727 0f59 0401     		.2byte	0x104
-ARM GAS  /tmp/cchoAtMX.s 			page 49
+ARM GAS  /tmp/ccQYScAg.s 			page 49
 
 
  2728 0f5b 6C0E0000 		.4byte	0xe6c
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2782 0fca 6C0E0000 		.4byte	0xe6c
  2783 0fce 5C       		.byte	0x5c
  2784 0fcf 09       		.uleb128 0x9
-ARM GAS  /tmp/cchoAtMX.s 			page 50
+ARM GAS  /tmp/ccQYScAg.s 			page 50
 
 
  2785 0fd0 6C7200   		.ascii	"lr\000"
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2839 103a 00       		.byte	0
  2840 103b 08       		.uleb128 0x8
  2841 103c 5D1E0000 		.4byte	.LASF215
-ARM GAS  /tmp/cchoAtMX.s 			page 51
+ARM GAS  /tmp/ccQYScAg.s 			page 51
 
 
  2842 1040 0D       		.byte	0xd
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2896 10a9 08       		.uleb128 0x8
  2897 10aa 9D0A0000 		.4byte	.LASF221
  2898 10ae 0E       		.byte	0xe
-ARM GAS  /tmp/cchoAtMX.s 			page 52
+ARM GAS  /tmp/ccQYScAg.s 			page 52
 
 
  2899 10af 4A       		.byte	0x4a
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  2953 1116 D8100000 		.4byte	0x10d8
  2954 111a 20       		.byte	0x20
  2955 111b 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 53
+ARM GAS  /tmp/ccQYScAg.s 			page 53
 
 
  2956 111c 03       		.uleb128 0x3
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3010 1192 AF110000 		.4byte	0x11af
  3011 1196 08       		.uleb128 0x8
  3012 1197 60190000 		.4byte	.LASF238
-ARM GAS  /tmp/cchoAtMX.s 			page 54
+ARM GAS  /tmp/ccQYScAg.s 			page 54
 
 
  3013 119b 10       		.byte	0x10
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3067 1204 01       		.byte	0x1
  3068 1205 08       		.byte	0x8
  3069 1206 34090000 		.4byte	.LASF245
-ARM GAS  /tmp/cchoAtMX.s 			page 55
+ARM GAS  /tmp/ccQYScAg.s 			page 55
 
 
  3070 120a 05       		.uleb128 0x5
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3124 1279 08       		.byte	0x8
  3125 127a 08       		.uleb128 0x8
  3126 127b 58120000 		.4byte	.LASF251
-ARM GAS  /tmp/cchoAtMX.s 			page 56
+ARM GAS  /tmp/ccQYScAg.s 			page 56
 
 
  3127 127f 12       		.byte	0x12
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3181 12eb 12       		.byte	0x12
  3182 12ec 44       		.byte	0x44
  3183 12ed BF000000 		.4byte	0xbf
-ARM GAS  /tmp/cchoAtMX.s 			page 57
+ARM GAS  /tmp/ccQYScAg.s 			page 57
 
 
  3184 12f1 12       		.byte	0x12
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3238 1363 14       		.byte	0x14
  3239 1364 13       		.byte	0x13
  3240 1365 39       		.byte	0x39
-ARM GAS  /tmp/cchoAtMX.s 			page 58
+ARM GAS  /tmp/ccQYScAg.s 			page 58
 
 
  3241 1366 A7130000 		.4byte	0x13a7
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3295 13d2 DA1A0000 		.4byte	.LASF277
  3296 13d6 14       		.byte	0x14
  3297 13d7 3F       		.byte	0x3f
-ARM GAS  /tmp/cchoAtMX.s 			page 59
+ARM GAS  /tmp/ccQYScAg.s 			page 59
 
 
  3298 13d8 DC130000 		.4byte	0x13dc
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3352 1447 20       		.byte	0x20
  3353 1448 00       		.byte	0
  3354 1449 03       		.uleb128 0x3
-ARM GAS  /tmp/cchoAtMX.s 			page 60
+ARM GAS  /tmp/ccQYScAg.s 			page 60
 
 
  3355 144a 49110000 		.4byte	.LASF287
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3409 14c5 0B       		.uleb128 0xb
  3410 14c6 04       		.byte	0x4
  3411 14c7 AC140000 		.4byte	0x14ac
-ARM GAS  /tmp/cchoAtMX.s 			page 61
+ARM GAS  /tmp/ccQYScAg.s 			page 61
 
 
  3412 14cb 20       		.uleb128 0x20
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3466 153d 0A       		.byte	0xa
  3467 153e 00       		.byte	0
  3468 153f 0B       		.uleb128 0xb
-ARM GAS  /tmp/cchoAtMX.s 			page 62
+ARM GAS  /tmp/ccQYScAg.s 			page 62
 
 
  3469 1540 04       		.byte	0x4
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3523 15bf BA030000 		.4byte	0x3ba
  3524 15c3 0E       		.uleb128 0xe
  3525 15c4 A0140000 		.4byte	0x14a0
-ARM GAS  /tmp/cchoAtMX.s 			page 63
+ARM GAS  /tmp/ccQYScAg.s 			page 63
 
 
  3526 15c8 0E       		.uleb128 0xe
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3580 163a 22       		.uleb128 0x22
  3581 163b D6080000 		.4byte	.LASF305
  3582 163f 08       		.byte	0x8
-ARM GAS  /tmp/cchoAtMX.s 			page 64
+ARM GAS  /tmp/ccQYScAg.s 			page 64
 
 
  3583 1640 00       		.byte	0
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3637 16b2 0B       		.uleb128 0xb
  3638 16b3 04       		.byte	0x4
  3639 16b4 94160000 		.4byte	0x1694
-ARM GAS  /tmp/cchoAtMX.s 			page 65
+ARM GAS  /tmp/ccQYScAg.s 			page 65
 
 
  3640 16b8 20       		.uleb128 0x20
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3694 172d 1D       		.uleb128 0x1d
  3695 172e 04       		.byte	0x4
  3696 172f 17       		.byte	0x17
-ARM GAS  /tmp/cchoAtMX.s 			page 66
+ARM GAS  /tmp/ccQYScAg.s 			page 66
 
 
  3697 1730 B1       		.byte	0xb1
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3751 1798 00010000 		.4byte	0x100
  3752 179c 14       		.byte	0x14
  3753 179d 08       		.uleb128 0x8
-ARM GAS  /tmp/cchoAtMX.s 			page 67
+ARM GAS  /tmp/ccQYScAg.s 			page 67
 
 
  3754 179e 001B0000 		.4byte	.LASF316
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3808 180a 17       		.byte	0x17
  3809 180b C7       		.byte	0xc7
  3810 180c F5000000 		.4byte	0xf5
-ARM GAS  /tmp/cchoAtMX.s 			page 68
+ARM GAS  /tmp/ccQYScAg.s 			page 68
 
 
  3811 1810 08       		.byte	0x8
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3865 1879 08       		.uleb128 0x8
  3866 187a 41080000 		.4byte	.LASF331
  3867 187e 17       		.byte	0x17
-ARM GAS  /tmp/cchoAtMX.s 			page 69
+ARM GAS  /tmp/ccQYScAg.s 			page 69
 
 
  3868 187f E8       		.byte	0xe8
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3922 18f0 21       		.uleb128 0x21
  3923 18f1 07       		.byte	0x7
  3924 18f2 01       		.byte	0x1
-ARM GAS  /tmp/cchoAtMX.s 			page 70
+ARM GAS  /tmp/ccQYScAg.s 			page 70
 
 
  3925 18f3 5E000000 		.4byte	0x5e
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  3979 1965 19       		.byte	0x19
  3980 1966 3601     		.2byte	0x136
  3981 1968 45190000 		.4byte	0x1945
-ARM GAS  /tmp/cchoAtMX.s 			page 71
+ARM GAS  /tmp/ccQYScAg.s 			page 71
 
 
  3982 196c 1A       		.uleb128 0x1a
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4036 19e1 61646300 		.ascii	"adc\000"
  4037 19e5 19       		.byte	0x19
  4038 19e6 C701     		.2byte	0x1c7
-ARM GAS  /tmp/cchoAtMX.s 			page 72
+ARM GAS  /tmp/ccQYScAg.s 			page 72
 
 
  4039 19e8 3B1B0000 		.4byte	0x1b3b
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4093 1a5e 28       		.byte	0x28
  4094 1a5f 19       		.byte	0x19
  4095 1a60 5801     		.2byte	0x158
-ARM GAS  /tmp/cchoAtMX.s 			page 73
+ARM GAS  /tmp/ccQYScAg.s 			page 73
 
 
  4096 1a62 F61A0000 		.4byte	0x1af6
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4150 1ada 1C       		.byte	0x1c
  4151 1adb 0A       		.uleb128 0xa
  4152 1adc 39000000 		.4byte	.LASF371
-ARM GAS  /tmp/cchoAtMX.s 			page 74
+ARM GAS  /tmp/ccQYScAg.s 			page 74
 
 
  4153 1ae0 19       		.byte	0x19
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4207 1b53 15       		.uleb128 0x15
  4208 1b54 600B0000 		.4byte	.LASF377
  4209 1b58 19       		.byte	0x19
-ARM GAS  /tmp/cchoAtMX.s 			page 75
+ARM GAS  /tmp/ccQYScAg.s 			page 75
 
 
  4210 1b59 1802     		.2byte	0x218
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4264 1bc7 62747200 		.ascii	"btr\000"
  4265 1bcb 1B       		.byte	0x1b
  4266 1bcc 0001     		.2byte	0x100
-ARM GAS  /tmp/cchoAtMX.s 			page 76
+ARM GAS  /tmp/ccQYScAg.s 			page 76
 
 
  4267 1bce F5000000 		.4byte	0xf5
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4321 1c42 3001     		.2byte	0x130
  4322 1c44 C6130000 		.4byte	0x13c6
  4323 1c48 20       		.byte	0x20
-ARM GAS  /tmp/cchoAtMX.s 			page 77
+ARM GAS  /tmp/ccQYScAg.s 			page 77
 
 
  4324 1c49 0A       		.uleb128 0xa
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4378 1cba 22       		.uleb128 0x22
  4379 1cbb EE0F0000 		.4byte	.LASF399
  4380 1cbf 04       		.byte	0x4
-ARM GAS  /tmp/cchoAtMX.s 			page 78
+ARM GAS  /tmp/ccQYScAg.s 			page 78
 
 
  4381 1cc0 22       		.uleb128 0x22
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4435 1d2f F5000000 		.4byte	0xf5
  4436 1d33 18       		.byte	0x18
  4437 1d34 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 79
+ARM GAS  /tmp/ccQYScAg.s 			page 79
 
 
  4438 1d35 0B       		.uleb128 0xb
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4492 1dac 9401     		.2byte	0x194
  4493 1dae D2020000 		.4byte	0x2d2
  4494 1db2 14       		.byte	0x14
-ARM GAS  /tmp/cchoAtMX.s 			page 80
+ARM GAS  /tmp/ccQYScAg.s 			page 80
 
 
  4495 1db3 0A       		.uleb128 0xa
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4549 1e28 2C000000 		.4byte	0x2c
  4550 1e2c 00       		.byte	0
  4551 1e2d 0B       		.uleb128 0xb
-ARM GAS  /tmp/cchoAtMX.s 			page 81
+ARM GAS  /tmp/ccQYScAg.s 			page 81
 
 
  4552 1e2e 04       		.byte	0x4
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4606 1e9f C1040000 		.4byte	.LASF366
  4607 1ea3 1D       		.byte	0x1d
  4608 1ea4 5A01     		.2byte	0x15a
-ARM GAS  /tmp/cchoAtMX.s 			page 82
+ARM GAS  /tmp/ccQYScAg.s 			page 82
 
 
  4609 1ea6 061E0000 		.4byte	0x1e06
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4663 1f19 04       		.byte	0x4
  4664 1f1a 471D0000 		.4byte	0x1d47
  4665 1f1e 15       		.uleb128 0x15
-ARM GAS  /tmp/cchoAtMX.s 			page 83
+ARM GAS  /tmp/ccQYScAg.s 			page 83
 
 
  4666 1f1f A4130000 		.4byte	.LASF424
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4720 1f8c F5000000 		.4byte	0xf5
  4721 1f90 03       		.uleb128 0x3
  4722 1f91 76160000 		.4byte	.LASF431
-ARM GAS  /tmp/cchoAtMX.s 			page 84
+ARM GAS  /tmp/ccQYScAg.s 			page 84
 
 
  4723 1f95 1F       		.byte	0x1f
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4777 2000 14       		.uleb128 0x14
  4778 2001 37000000 		.4byte	0x37
  4779 2005 16       		.byte	0x16
-ARM GAS  /tmp/cchoAtMX.s 			page 85
+ARM GAS  /tmp/ccQYScAg.s 			page 85
 
 
  4780 2006 00       		.byte	0
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4834 2073 AC200000 		.4byte	0x20ac
  4835 2077 0A       		.uleb128 0xa
  4836 2078 6B030000 		.4byte	.LASF353
-ARM GAS  /tmp/cchoAtMX.s 			page 86
+ARM GAS  /tmp/ccQYScAg.s 			page 86
 
 
  4837 207c 21       		.byte	0x21
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4891 20ec 00010000 		.4byte	0x100
  4892 20f0 04       		.byte	0x4
  4893 20f1 0A       		.uleb128 0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 87
+ARM GAS  /tmp/ccQYScAg.s 			page 87
 
 
  4894 20f2 4A170000 		.4byte	.LASF446
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  4948 2166 41525200 		.ascii	"ARR\000"
  4949 216a 22       		.byte	0x22
  4950 216b AA01     		.2byte	0x1aa
-ARM GAS  /tmp/cchoAtMX.s 			page 88
+ARM GAS  /tmp/ccQYScAg.s 			page 88
 
 
  4951 216d 00010000 		.4byte	0x100
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5005 21e0 B301     		.2byte	0x1b3
  5006 21e2 CE200000 		.4byte	0x20ce
  5007 21e6 1A       		.uleb128 0x1a
-ARM GAS  /tmp/cchoAtMX.s 			page 89
+ARM GAS  /tmp/ccQYScAg.s 			page 89
 
 
  5008 21e7 A30D0000 		.4byte	.LASF456
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5062 225e 21       		.byte	0x21
  5063 225f F201     		.2byte	0x1f2
  5064 2261 5F200000 		.4byte	0x205f
-ARM GAS  /tmp/cchoAtMX.s 			page 90
+ARM GAS  /tmp/ccQYScAg.s 			page 90
 
 
  5065 2265 15       		.uleb128 0x15
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5119 22d5 29090000 		.4byte	.LASF473
  5120 22d9 01       		.byte	0x1
  5121 22da 22       		.uleb128 0x22
-ARM GAS  /tmp/cchoAtMX.s 			page 91
+ARM GAS  /tmp/ccQYScAg.s 			page 91
 
 
  5122 22db A4140000 		.4byte	.LASF474
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5176 234b 14230000 		.4byte	0x2314
  5177 234f 08       		.byte	0x8
  5178 2350 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 92
+ARM GAS  /tmp/ccQYScAg.s 			page 92
 
 
  5179 2351 1A       		.uleb128 0x1a
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5233 23c9 0A       		.uleb128 0xa
  5234 23ca 25110000 		.4byte	.LASF488
  5235 23ce 24       		.byte	0x24
-ARM GAS  /tmp/cchoAtMX.s 			page 93
+ARM GAS  /tmp/ccQYScAg.s 			page 93
 
 
  5236 23cf BA01     		.2byte	0x1ba
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5290 2441 02       		.byte	0x2
  5291 2442 22       		.uleb128 0x22
  5292 2443 4F170000 		.4byte	.LASF496
-ARM GAS  /tmp/cchoAtMX.s 			page 94
+ARM GAS  /tmp/ccQYScAg.s 			page 94
 
 
  5293 2447 03       		.byte	0x3
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5347 24b9 3401     		.2byte	0x134
  5348 24bb 411B0000 		.4byte	0x1b41
  5349 24bf 14       		.byte	0x14
-ARM GAS  /tmp/cchoAtMX.s 			page 95
+ARM GAS  /tmp/ccQYScAg.s 			page 95
 
 
  5350 24c0 0A       		.uleb128 0xa
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5404 252e 2C000000 		.4byte	0x2c
  5405 2532 08       		.byte	0x8
  5406 2533 0A       		.uleb128 0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 96
+ARM GAS  /tmp/ccQYScAg.s 			page 96
 
 
  5407 2534 C1040000 		.4byte	.LASF366
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5461 25a5 87190000 		.4byte	.LASF510
  5462 25a9 02       		.byte	0x2
  5463 25aa 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 97
+ARM GAS  /tmp/ccQYScAg.s 			page 97
 
 
  5464 25ab 03       		.uleb128 0x3
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5518 2621 28       		.byte	0x28
  5519 2622 9901     		.2byte	0x199
  5520 2624 53220000 		.4byte	0x2253
-ARM GAS  /tmp/cchoAtMX.s 			page 98
+ARM GAS  /tmp/ccQYScAg.s 			page 98
 
 
  5521 2628 18       		.byte	0x18
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5575 269e 04       		.byte	0x4
  5576 269f 00       		.byte	0
  5577 26a0 1A       		.uleb128 0x1a
-ARM GAS  /tmp/cchoAtMX.s 			page 99
+ARM GAS  /tmp/ccQYScAg.s 			page 99
 
 
  5578 26a1 B0030000 		.4byte	.LASF520
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5632 2715 911B0000 		.4byte	.LASF521
  5633 2719 28       		.byte	0x28
  5634 271a 7401     		.2byte	0x174
-ARM GAS  /tmp/cchoAtMX.s 			page 100
+ARM GAS  /tmp/ccQYScAg.s 			page 100
 
 
  5635 271c AC260000 		.4byte	0x26ac
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5689 2792 EA170000 		.4byte	.LASF530
  5690 2796 5801     		.2byte	0x158
  5691 2798 29       		.byte	0x29
-ARM GAS  /tmp/cchoAtMX.s 			page 101
+ARM GAS  /tmp/ccQYScAg.s 			page 101
 
 
  5692 2799 78       		.byte	0x78
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5746 2804 1501     		.2byte	0x115
  5747 2806 86270000 		.4byte	0x2786
  5748 280a 07       		.uleb128 0x7
-ARM GAS  /tmp/cchoAtMX.s 			page 102
+ARM GAS  /tmp/ccQYScAg.s 			page 102
 
 
  5749 280b CB100000 		.4byte	.LASF535
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5803 2877 05       		.uleb128 0x5
  5804 2878 0A280000 		.4byte	0x280a
  5805 287c 0B       		.uleb128 0xb
-ARM GAS  /tmp/cchoAtMX.s 			page 103
+ARM GAS  /tmp/ccQYScAg.s 			page 103
 
 
  5806 287d 04       		.byte	0x4
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5860 28ec 93290000 		.4byte	0x2993
  5861 28f0 18       		.uleb128 0x18
  5862 28f1 766D7400 		.ascii	"vmt\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 104
+ARM GAS  /tmp/ccQYScAg.s 			page 104
 
 
  5863 28f5 2C       		.byte	0x2c
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5917 2963 2C       		.byte	0x2c
  5918 2964 0C01     		.2byte	0x10c
  5919 2966 D2020000 		.4byte	0x2d2
-ARM GAS  /tmp/cchoAtMX.s 			page 105
+ARM GAS  /tmp/ccQYScAg.s 			page 105
 
 
  5920 296a 3C       		.byte	0x3c
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  5974 29d6 EC       		.byte	0xec
  5975 29d7 8E160000 		.4byte	0x168e
  5976 29db 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 106
+ARM GAS  /tmp/ccQYScAg.s 			page 106
 
 
  5977 29dc 08       		.uleb128 0x8
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6031 2a48 15       		.uleb128 0x15
  6032 2a49 FE020000 		.4byte	.LASF562
  6033 2a4d 2C       		.byte	0x2c
-ARM GAS  /tmp/cchoAtMX.s 			page 107
+ARM GAS  /tmp/ccQYScAg.s 			page 107
 
 
  6034 2a4e 2501     		.2byte	0x125
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6088 2abf 49190000 		.4byte	.LASF358
  6089 2ac3 2E       		.byte	0x2e
  6090 2ac4 C701     		.2byte	0x1c7
-ARM GAS  /tmp/cchoAtMX.s 			page 108
+ARM GAS  /tmp/ccQYScAg.s 			page 108
 
 
  6091 2ac6 D2020000 		.4byte	0x2d2
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6145 2b39 8B2A0000 		.4byte	0x2a8b
  6146 2b3d 19       		.uleb128 0x19
  6147 2b3e 0C       		.byte	0xc
-ARM GAS  /tmp/cchoAtMX.s 			page 109
+ARM GAS  /tmp/ccQYScAg.s 			page 109
 
 
  6148 2b3f 2E       		.byte	0x2e
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6202 2bb7 0A       		.uleb128 0xa
  6203 2bb8 6B030000 		.4byte	.LASF353
  6204 2bbc 30       		.byte	0x30
-ARM GAS  /tmp/cchoAtMX.s 			page 110
+ARM GAS  /tmp/ccQYScAg.s 			page 110
 
 
  6205 2bbd 7B01     		.2byte	0x17b
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6259 2c32 A501     		.2byte	0x1a5
  6260 2c34 2C000000 		.4byte	0x2c
  6261 2c38 3C       		.byte	0x3c
-ARM GAS  /tmp/cchoAtMX.s 			page 111
+ARM GAS  /tmp/ccQYScAg.s 			page 111
 
 
  6262 2c39 0A       		.uleb128 0xa
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6316 2cae 0A       		.uleb128 0xa
  6317 2caf 44110000 		.4byte	.LASF591
  6318 2cb3 30       		.byte	0x30
-ARM GAS  /tmp/cchoAtMX.s 			page 112
+ARM GAS  /tmp/ccQYScAg.s 			page 112
 
 
  6319 2cb4 D101     		.2byte	0x1d1
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6373 2d21 1801     		.2byte	0x118
  6374 2d23 522D0000 		.4byte	0x2d52
  6375 2d27 22       		.uleb128 0x22
-ARM GAS  /tmp/cchoAtMX.s 			page 113
+ARM GAS  /tmp/ccQYScAg.s 			page 113
 
 
  6376 2d28 6F060000 		.4byte	.LASF600
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6430 2d96 2F       		.byte	0x2f
  6431 2d97 2C01     		.2byte	0x12c
  6432 2d99 5E2D0000 		.4byte	0x2d5e
-ARM GAS  /tmp/cchoAtMX.s 			page 114
+ARM GAS  /tmp/ccQYScAg.s 			page 114
 
 
  6433 2d9d 19       		.uleb128 0x19
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6487 2e12 D52C0000 		.4byte	0x2cd5
  6488 2e16 00       		.byte	0
  6489 2e17 1A       		.uleb128 0x1a
-ARM GAS  /tmp/cchoAtMX.s 			page 115
+ARM GAS  /tmp/ccQYScAg.s 			page 115
 
 
  6490 2e18 630A0000 		.4byte	.LASF620
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6544 2e93 35       		.byte	0x35
  6545 2e94 F92E0000 		.4byte	0x2ef9
  6546 2e98 08       		.uleb128 0x8
-ARM GAS  /tmp/cchoAtMX.s 			page 116
+ARM GAS  /tmp/ccQYScAg.s 			page 116
 
 
  6547 2e99 F1080000 		.4byte	.LASF623
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6601 2f05 20       		.byte	0x20
  6602 2f06 31       		.byte	0x31
  6603 2f07 46       		.byte	0x46
-ARM GAS  /tmp/cchoAtMX.s 			page 117
+ARM GAS  /tmp/ccQYScAg.s 			page 117
 
 
  6604 2f08 6D2F0000 		.4byte	0x2f6d
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6658 2f74 042F0000 		.4byte	0x2f04
  6659 2f78 17       		.uleb128 0x17
  6660 2f79 20       		.byte	0x20
-ARM GAS  /tmp/cchoAtMX.s 			page 118
+ARM GAS  /tmp/ccQYScAg.s 			page 118
 
 
  6661 2f7a 31       		.byte	0x31
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6715 2fe6 31       		.byte	0x31
  6716 2fe7 64       		.byte	0x64
  6717 2fe8 782F0000 		.4byte	0x2f78
-ARM GAS  /tmp/cchoAtMX.s 			page 119
+ARM GAS  /tmp/ccQYScAg.s 			page 119
 
 
  6718 2fec 28       		.uleb128 0x28
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6772 3058 4D100000 		.4byte	.LASF652
  6773 305c 31       		.byte	0x31
  6774 305d 73       		.byte	0x73
-ARM GAS  /tmp/cchoAtMX.s 			page 120
+ARM GAS  /tmp/ccQYScAg.s 			page 120
 
 
  6775 305e 00010000 		.4byte	0x100
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6829 30ca 00010000 		.4byte	0x100
  6830 30ce 0001     		.2byte	0x100
  6831 30d0 27       		.uleb128 0x27
-ARM GAS  /tmp/cchoAtMX.s 			page 121
+ARM GAS  /tmp/ccQYScAg.s 			page 121
 
 
  6832 30d1 540D0000 		.4byte	.LASF661
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6886 3146 99180000 		.4byte	.LASF670
  6887 314a 31       		.byte	0x31
  6888 314b 8F       		.byte	0x8f
-ARM GAS  /tmp/cchoAtMX.s 			page 122
+ARM GAS  /tmp/ccQYScAg.s 			page 122
 
 
  6889 314c 03330000 		.4byte	0x3303
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  6943 31c0 00010000 		.4byte	0x100
  6944 31c4 1008     		.2byte	0x810
  6945 31c6 27       		.uleb128 0x27
-ARM GAS  /tmp/cchoAtMX.s 			page 123
+ARM GAS  /tmp/ccQYScAg.s 			page 123
 
 
  6946 31c7 85060000 		.4byte	.LASF679
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7000 323c B2100000 		.4byte	.LASF688
  7001 3240 31       		.byte	0x31
  7002 3241 AA       		.byte	0xaa
-ARM GAS  /tmp/cchoAtMX.s 			page 124
+ARM GAS  /tmp/ccQYScAg.s 			page 124
 
 
  7003 3242 00010000 		.4byte	0x100
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7057 32b5 87330000 		.4byte	0x3387
  7058 32b9 040E     		.2byte	0xe04
  7059 32bb 27       		.uleb128 0x27
-ARM GAS  /tmp/cchoAtMX.s 			page 125
+ARM GAS  /tmp/ccQYScAg.s 			page 125
 
 
  7060 32bc BC0E0000 		.4byte	.LASF195
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7114 333b 3F       		.byte	0x3f
  7115 333c 00       		.byte	0
  7116 333d 06       		.uleb128 0x6
-ARM GAS  /tmp/cchoAtMX.s 			page 126
+ARM GAS  /tmp/ccQYScAg.s 			page 126
 
 
  7117 333e 2D330000 		.4byte	0x332d
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7171 33b7 E0330000 		.4byte	0x33e0
  7172 33bb 08       		.uleb128 0x8
  7173 33bc EB190000 		.4byte	.LASF697
-ARM GAS  /tmp/cchoAtMX.s 			page 127
+ARM GAS  /tmp/ccQYScAg.s 			page 127
 
 
  7174 33c0 30       		.byte	0x30
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7228 3423 DC       		.byte	0xdc
  7229 3424 3F340000 		.4byte	0x343f
  7230 3428 2B       		.uleb128 0x2b
-ARM GAS  /tmp/cchoAtMX.s 			page 128
+ARM GAS  /tmp/ccQYScAg.s 			page 128
 
 
  7231 3429 C9150000 		.4byte	.LASF702
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7285 3492 0101     		.2byte	0x101
  7286 3494 A6340000 		.4byte	0x34a6
  7287 3498 0A       		.uleb128 0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 129
+ARM GAS  /tmp/ccQYScAg.s 			page 129
 
 
  7288 3499 67140000 		.4byte	.LASF709
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7342 3505 08       		.uleb128 0x8
  7343 3506 B60E0000 		.4byte	.LASF712
  7344 350a 30       		.byte	0x30
-ARM GAS  /tmp/cchoAtMX.s 			page 130
+ARM GAS  /tmp/ccQYScAg.s 			page 130
 
 
  7345 350b FF       		.byte	0xff
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7399 357d DA000000 		.4byte	0xda
  7400 3581 10       		.byte	0x10
  7401 3582 0A       		.uleb128 0xa
-ARM GAS  /tmp/cchoAtMX.s 			page 131
+ARM GAS  /tmp/ccQYScAg.s 			page 131
 
 
  7402 3583 A0170000 		.4byte	.LASF719
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7456 35f7 0A       		.uleb128 0xa
  7457 35f8 C1030000 		.4byte	.LASF726
  7458 35fc 30       		.byte	0x30
-ARM GAS  /tmp/cchoAtMX.s 			page 132
+ARM GAS  /tmp/ccQYScAg.s 			page 132
 
 
  7459 35fd 6601     		.2byte	0x166
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7513 3676 3E       		.byte	0x3e
  7514 3677 00       		.byte	0
  7515 3678 15       		.uleb128 0x15
-ARM GAS  /tmp/cchoAtMX.s 			page 133
+ARM GAS  /tmp/ccQYScAg.s 			page 133
 
 
  7516 3679 2E180000 		.4byte	.LASF730
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7570 36f7 00       		.byte	0
  7571 36f8 2E       		.uleb128 0x2e
  7572 36f9 361D0000 		.4byte	.LASF734
-ARM GAS  /tmp/cchoAtMX.s 			page 134
+ARM GAS  /tmp/ccQYScAg.s 			page 134
 
 
  7573 36fd 01       		.byte	0x1
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7627 3780 50       		.byte	0x50
  7628 3781 02       		.uleb128 0x2
  7629 3782 08       		.byte	0x8
-ARM GAS  /tmp/cchoAtMX.s 			page 135
+ARM GAS  /tmp/ccQYScAg.s 			page 135
 
 
  7630 3783 36       		.byte	0x36
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7684 37fe 01       		.uleb128 0x1
  7685 37ff 51       		.byte	0x51
  7686 3800 01       		.uleb128 0x1
-ARM GAS  /tmp/cchoAtMX.s 			page 136
+ARM GAS  /tmp/ccQYScAg.s 			page 136
 
 
  7687 3801 37       		.byte	0x37
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7741 3871 7F380000 		.4byte	0x387f
  7742 3875 34       		.uleb128 0x34
  7743 3876 01       		.uleb128 0x1
-ARM GAS  /tmp/cchoAtMX.s 			page 137
+ARM GAS  /tmp/ccQYScAg.s 			page 137
 
 
  7744 3877 50       		.byte	0x50
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7798 38fa 30       		.uleb128 0x30
  7799 38fb 0E000000 		.4byte	.LVL5
  7800 38ff F7390000 		.4byte	0x39f7
-ARM GAS  /tmp/cchoAtMX.s 			page 138
+ARM GAS  /tmp/ccQYScAg.s 			page 138
 
 
  7801 3903 30       		.uleb128 0x30
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7855 398a 01       		.uleb128 0x1
  7856 398b 50       		.byte	0x50
  7857 398c 03       		.uleb128 0x3
-ARM GAS  /tmp/cchoAtMX.s 			page 139
+ARM GAS  /tmp/ccQYScAg.s 			page 139
 
 
  7858 398d F3       		.byte	0xf3
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7912 3a0c DC       		.byte	0xdc
  7913 3a0d 40       		.uleb128 0x40
  7914 3a0e 25100000 		.4byte	.LASF746
-ARM GAS  /tmp/cchoAtMX.s 			page 140
+ARM GAS  /tmp/ccQYScAg.s 			page 140
 
 
  7915 3a12 25100000 		.4byte	.LASF746
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  7969 002b 04       		.uleb128 0x4
  7970 002c 24       		.uleb128 0x24
  7971 002d 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 141
+ARM GAS  /tmp/ccQYScAg.s 			page 141
 
 
  7972 002e 0B       		.uleb128 0xb
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8026 0064 00       		.byte	0
  8027 0065 03       		.uleb128 0x3
  8028 0066 08       		.uleb128 0x8
-ARM GAS  /tmp/cchoAtMX.s 			page 142
+ARM GAS  /tmp/ccQYScAg.s 			page 142
 
 
  8029 0067 3A       		.uleb128 0x3a
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8083 009d 01       		.uleb128 0x1
  8084 009e 13       		.uleb128 0x13
  8085 009f 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 143
+ARM GAS  /tmp/ccQYScAg.s 			page 143
 
 
  8086 00a0 00       		.byte	0
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8140 00d6 49       		.uleb128 0x49
  8141 00d7 13       		.uleb128 0x13
  8142 00d8 38       		.uleb128 0x38
-ARM GAS  /tmp/cchoAtMX.s 			page 144
+ARM GAS  /tmp/ccQYScAg.s 			page 144
 
 
  8143 00d9 05       		.uleb128 0x5
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8197 010f 00       		.byte	0
  8198 0110 17       		.uleb128 0x17
  8199 0111 13       		.uleb128 0x13
-ARM GAS  /tmp/cchoAtMX.s 			page 145
+ARM GAS  /tmp/ccQYScAg.s 			page 145
 
 
  8200 0112 01       		.byte	0x1
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8254 0148 01       		.byte	0x1
  8255 0149 0B       		.uleb128 0xb
  8256 014a 05       		.uleb128 0x5
-ARM GAS  /tmp/cchoAtMX.s 			page 146
+ARM GAS  /tmp/ccQYScAg.s 			page 146
 
 
  8257 014b 3A       		.uleb128 0x3a
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8311 0181 3B       		.uleb128 0x3b
  8312 0182 05       		.uleb128 0x5
  8313 0183 49       		.uleb128 0x49
-ARM GAS  /tmp/cchoAtMX.s 			page 147
+ARM GAS  /tmp/ccQYScAg.s 			page 147
 
 
  8314 0184 13       		.uleb128 0x13
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8368 01ba 13       		.uleb128 0x13
  8369 01bb 00       		.byte	0
  8370 01bc 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 148
+ARM GAS  /tmp/ccQYScAg.s 			page 148
 
 
  8371 01bd 24       		.uleb128 0x24
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8425 01f3 01       		.byte	0x1
  8426 01f4 0B       		.uleb128 0xb
  8427 01f5 06       		.uleb128 0x6
-ARM GAS  /tmp/cchoAtMX.s 			page 149
+ARM GAS  /tmp/ccQYScAg.s 			page 149
 
 
  8428 01f6 3A       		.uleb128 0x3a
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8482 022c 01       		.uleb128 0x1
  8483 022d 13       		.uleb128 0x13
  8484 022e 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 150
+ARM GAS  /tmp/ccQYScAg.s 			page 150
 
 
  8485 022f 00       		.byte	0
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8539 0266 30       		.uleb128 0x30
  8540 0267 898201   		.uleb128 0x4109
  8541 026a 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 151
+ARM GAS  /tmp/ccQYScAg.s 			page 151
 
 
  8542 026b 11       		.uleb128 0x11
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8596 02a5 9142     		.uleb128 0x2111
  8597 02a7 18       		.uleb128 0x18
  8598 02a8 00       		.byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 152
+ARM GAS  /tmp/ccQYScAg.s 			page 152
 
 
  8599 02a9 00       		.byte	0
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8653 02e5 2E       		.uleb128 0x2e
  8654 02e6 01       		.byte	0x1
  8655 02e7 03       		.uleb128 0x3
-ARM GAS  /tmp/cchoAtMX.s 			page 153
+ARM GAS  /tmp/ccQYScAg.s 			page 153
 
 
  8656 02e8 0E       		.uleb128 0xe
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8710 031f 31       		.uleb128 0x31
  8711 0320 13       		.uleb128 0x13
  8712 0321 02       		.uleb128 0x2
-ARM GAS  /tmp/cchoAtMX.s 			page 154
+ARM GAS  /tmp/ccQYScAg.s 			page 154
 
 
  8713 0322 17       		.uleb128 0x17
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8767 035c 0E       		.uleb128 0xe
  8768 035d 3A       		.uleb128 0x3a
  8769 035e 0B       		.uleb128 0xb
-ARM GAS  /tmp/cchoAtMX.s 			page 155
+ARM GAS  /tmp/ccQYScAg.s 			page 155
 
 
  8770 035f 3B       		.uleb128 0x3b
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8824 0045 51       		.byte	0x51
  8825 0046 9F       		.byte	0x9f
  8826 0047 00000000 		.4byte	0
-ARM GAS  /tmp/cchoAtMX.s 			page 156
+ARM GAS  /tmp/ccQYScAg.s 			page 156
 
 
  8827 004b 00000000 		.4byte	0
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8881 00cc F3       		.byte	0xf3
  8882 00cd 01       		.uleb128 0x1
  8883 00ce 50       		.byte	0x50
-ARM GAS  /tmp/cchoAtMX.s 			page 157
+ARM GAS  /tmp/ccQYScAg.s 			page 157
 
 
  8884 00cf 9F       		.byte	0x9f
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8938 015d 3F000000 		.4byte	.LVL3-1
  8939 0161 0100     		.2byte	0x1
  8940 0163 50       		.byte	0x50
-ARM GAS  /tmp/cchoAtMX.s 			page 158
+ARM GAS  /tmp/ccQYScAg.s 			page 158
 
 
  8941 0164 3F000000 		.4byte	.LVL3-1
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  8995 0024 3C000000 		.4byte	.LFE258-.LFB258
  8996 0028 00000000 		.4byte	.LFB259
  8997 002c 48000000 		.4byte	.LFE259-.LFB259
-ARM GAS  /tmp/cchoAtMX.s 			page 159
+ARM GAS  /tmp/ccQYScAg.s 			page 159
 
 
  8998 0030 00000000 		.4byte	.LFB260
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9046 000d 73746D33 		.ascii	"stm32_dma_stream_t\000"
  9046      325F646D 
  9046      615F7374 
-ARM GAS  /tmp/cchoAtMX.s 			page 160
+ARM GAS  /tmp/ccQYScAg.s 			page 160
 
 
  9046      7265616D 
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9077              	.LASF29:
  9078 0099 74707269 		.ascii	"tprio_t\000"
  9078      6F5F7400 
-ARM GAS  /tmp/cchoAtMX.s 			page 161
+ARM GAS  /tmp/ccQYScAg.s 			page 161
 
 
  9079              	.LASF362:
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9098 0207 63685F64 		.ascii	"ch_debug\000"
  9098      65627567 
  9098      00
-ARM GAS  /tmp/cchoAtMX.s 			page 162
+ARM GAS  /tmp/ccQYScAg.s 			page 162
 
 
  9099              	.LASF483:
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9128      41494C55 
  9128      524500
  9129              	.LASF81:
-ARM GAS  /tmp/cchoAtMX.s 			page 163
+ARM GAS  /tmp/ccQYScAg.s 			page 163
 
 
  9130 02a0 63685F76 		.ascii	"ch_virtual_timers_list\000"
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9157              	.LASF518:
  9158 032f 70776D63 		.ascii	"pwmchnmsk_t\000"
  9158      686E6D73 
-ARM GAS  /tmp/cchoAtMX.s 			page 164
+ARM GAS  /tmp/ccQYScAg.s 			page 164
 
 
  9158      6B5F7400 
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9186      00
  9187              	.LASF726:
  9188 03c1 6765745F 		.ascii	"get_descriptor_cb\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 165
+ARM GAS  /tmp/ccQYScAg.s 			page 165
 
 
  9188      64657363 
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9216 044f 64696572 		.ascii	"dier\000"
  9216      00
  9217              	.LASF508:
-ARM GAS  /tmp/cchoAtMX.s 			page 166
+ARM GAS  /tmp/ccQYScAg.s 			page 166
 
 
  9218 0454 50574D5F 		.ascii	"PWM_UNINIT\000"
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9244      6464725F 
  9244      7400
  9245              	.LASF282:
-ARM GAS  /tmp/cchoAtMX.s 			page 167
+ARM GAS  /tmp/ccQYScAg.s 			page 167
 
 
  9246 04ed 715F746F 		.ascii	"q_top\000"
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9273              	.LASF285:
  9274 0575 715F6E6F 		.ascii	"q_notify\000"
  9274      74696679 
-ARM GAS  /tmp/cchoAtMX.s 			page 168
+ARM GAS  /tmp/ccQYScAg.s 			page 168
 
 
  9274      00
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9302      00
  9303              	.LASF338:
  9304 060e 696F706F 		.ascii	"ioportid_t\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 169
+ARM GAS  /tmp/ccQYScAg.s 			page 169
 
 
  9304      72746964 
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9331              	.LASF515:
  9332 06a2 70776D63 		.ascii	"pwmcallback_t\000"
  9332      616C6C62 
-ARM GAS  /tmp/cchoAtMX.s 			page 170
+ARM GAS  /tmp/ccQYScAg.s 			page 170
 
 
  9332      61636B5F 
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9359              	.LASF3:
  9360 0738 7369676E 		.ascii	"signed char\000"
  9360      65642063 
-ARM GAS  /tmp/cchoAtMX.s 			page 171
+ARM GAS  /tmp/ccQYScAg.s 			page 171
 
 
  9360      68617200 
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9386      00
  9387              	.LASF124:
  9388 07dc 52455345 		.ascii	"RESERVED0\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 172
+ARM GAS  /tmp/ccQYScAg.s 			page 172
 
 
  9388      52564544 
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9414      66666572 
  9414      00
  9415              	.LASF405:
-ARM GAS  /tmp/cchoAtMX.s 			page 173
+ARM GAS  /tmp/ccQYScAg.s 			page 173
 
 
  9416 086f 646D6169 		.ascii	"dmairqprio\000"
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9444 08f8 61646373 		.ascii	"adcsample_t\000"
  9444      616D706C 
  9444      655F7400 
-ARM GAS  /tmp/cchoAtMX.s 			page 174
+ARM GAS  /tmp/ccQYScAg.s 			page 174
 
 
  9445              	.LASF410:
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9476      696F00
  9477              	.LASF577:
  9478 0982 72656365 		.ascii	"receiving\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 175
+ARM GAS  /tmp/ccQYScAg.s 			page 175
 
 
  9478      6976696E 
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9506 0a0c 67657474 		.ascii	"gett\000"
  9506      00
  9507              	.LASF206:
-ARM GAS  /tmp/cchoAtMX.s 			page 176
+ARM GAS  /tmp/ccQYScAg.s 			page 176
 
 
  9508 0a11 73746B61 		.ascii	"stkalign_t\000"
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9534 0aa3 6576656E 		.ascii	"event_listener_t\000"
  9534      745F6C69 
  9534      7374656E 
-ARM GAS  /tmp/cchoAtMX.s 			page 177
+ARM GAS  /tmp/ccQYScAg.s 			page 177
 
 
  9534      65725F74 
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9563              	.LASF594:
  9564 0b30 5553425F 		.ascii	"USB_UNINIT\000"
  9564      554E494E 
-ARM GAS  /tmp/cchoAtMX.s 			page 178
+ARM GAS  /tmp/ccQYScAg.s 			page 178
 
 
  9564      495400
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9592 0bc1 63685F74 		.ascii	"ch_trace_buffer_t\000"
  9592      72616365 
  9592      5F627566 
-ARM GAS  /tmp/cchoAtMX.s 			page 179
+ARM GAS  /tmp/ccQYScAg.s 			page 179
 
 
  9592      6665725F 
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9620 0c54 5553425F 		.ascii	"USB_SELECTED\000"
  9620      53454C45 
  9620      43544544 
-ARM GAS  /tmp/cchoAtMX.s 			page 180
+ARM GAS  /tmp/ccQYScAg.s 			page 180
 
 
  9620      00
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9649              	.LASF514:
  9650 0ced 656E6162 		.ascii	"enabled\000"
  9650      6C656400 
-ARM GAS  /tmp/cchoAtMX.s 			page 181
+ARM GAS  /tmp/ccQYScAg.s 			page 181
 
 
  9651              	.LASF420:
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9680      657200
  9681              	.LASF97:
  9682 0d86 53797374 		.ascii	"SystemCoreClock\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 182
+ARM GAS  /tmp/ccQYScAg.s 			page 182
 
 
  9682      656D436F 
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9708      6368616E 
  9708      6E656C73 
  9708      00
-ARM GAS  /tmp/cchoAtMX.s 			page 183
+ARM GAS  /tmp/ccQYScAg.s 			page 183
 
 
  9709              	.LASF73:
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9736 0eb6 7278636E 		.ascii	"rxcnt\000"
  9736      7400
  9737              	.LASF195:
-ARM GAS  /tmp/cchoAtMX.s 			page 184
+ARM GAS  /tmp/ccQYScAg.s 			page 184
 
 
  9738 0ebc 4649464F 		.ascii	"FIFO\000"
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9767              	.LASF407:
  9768 0f48 44414344 		.ascii	"DACDriver\000"
  9768      72697665 
-ARM GAS  /tmp/cchoAtMX.s 			page 185
+ARM GAS  /tmp/ccQYScAg.s 			page 185
 
 
  9768      7200
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9796      53544152 
  9796      54494E47 
  9796      00
-ARM GAS  /tmp/cchoAtMX.s 			page 186
+ARM GAS  /tmp/ccQYScAg.s 			page 186
 
 
  9797              	.LASF596:
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9826      63616C6C 
  9826      6261636B 
  9826      5F7400
-ARM GAS  /tmp/cchoAtMX.s 			page 187
+ARM GAS  /tmp/ccQYScAg.s 			page 187
 
 
  9827              	.LASF203:
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9855              	.LASF689:
  9856 1104 72657376 		.ascii	"resvd83C\000"
  9856      64383343 
-ARM GAS  /tmp/cchoAtMX.s 			page 188
+ARM GAS  /tmp/ccQYScAg.s 			page 188
 
 
  9856      00
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9887              	.LASF642:
  9888 118c 444F4550 		.ascii	"DOEPTSIZ\000"
  9888      5453495A 
-ARM GAS  /tmp/cchoAtMX.s 			page 189
+ARM GAS  /tmp/ccQYScAg.s 			page 189
 
 
  9888      00
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9915              	.LASF56:
  9916 1220 705F6D70 		.ascii	"p_mpool\000"
  9916      6F6F6C00 
-ARM GAS  /tmp/cchoAtMX.s 			page 190
+ARM GAS  /tmp/ccQYScAg.s 			page 190
 
 
  9917              	.LASF434:
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9946      6C6C645F 
  9946      73657276 
  9946      655F696E 
-ARM GAS  /tmp/cchoAtMX.s 			page 191
+ARM GAS  /tmp/ccQYScAg.s 			page 191
 
 
  9946      74657272 
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  9976      00
  9977              	.LASF216:
  9978 1341 74625F62 		.ascii	"tb_buffer\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 192
+ARM GAS  /tmp/ccQYScAg.s 			page 192
 
 
  9978      75666665 
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10008 13d2 7346696C 		.ascii	"sFilterRegister\000"
  10008      74657252 
  10008      65676973 
-ARM GAS  /tmp/cchoAtMX.s 			page 193
+ARM GAS  /tmp/ccQYScAg.s 			page 193
 
 
  10008      74657200 
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10032      494E475F 
  10032      54583000 
  10033              	.LASF208:
-ARM GAS  /tmp/cchoAtMX.s 			page 194
+ARM GAS  /tmp/ccQYScAg.s 			page 194
 
 
  10034 1481 706F7274 		.ascii	"port_intctx\000"
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10058      3800
  10059              	.LASF713:
  10060 151a 5553424F 		.ascii	"USBOutEndpointState\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 195
+ARM GAS  /tmp/ccQYScAg.s 			page 195
 
 
  10060      7574456E 
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10087              	.LASF476:
  10088 15ae 6932636F 		.ascii	"i2copmode_t\000"
  10088      706D6F64 
-ARM GAS  /tmp/cchoAtMX.s 			page 196
+ARM GAS  /tmp/ccQYScAg.s 			page 196
 
 
  10088      655F7400 
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10114      6F6E7665 
  10114      7273696F 
  10114      6E47726F 
-ARM GAS  /tmp/cchoAtMX.s 			page 197
+ARM GAS  /tmp/ccQYScAg.s 			page 197
 
 
  10114      757000
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10139              	.LASF319:
  10140 16dc 41465248 		.ascii	"AFRH\000"
  10140      00
-ARM GAS  /tmp/cchoAtMX.s 			page 198
+ARM GAS  /tmp/ccQYScAg.s 			page 198
 
 
  10141              	.LASF318:
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10170      53444953 
  10170      00
  10171              	.LASF639:
-ARM GAS  /tmp/cchoAtMX.s 			page 199
+ARM GAS  /tmp/ccQYScAg.s 			page 199
 
 
  10172 176d 73746D33 		.ascii	"stm32_otg_in_ep_t\000"
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10198      00
  10199              	.LASF610:
  10200 17f7 5553425F 		.ascii	"USB_EVENT_CONFIGURED\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 200
+ARM GAS  /tmp/ccQYScAg.s 			page 200
 
 
  10200      4556454E 
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10230      00
  10231              	.LASF374:
  10232 1882 64756D6D 		.ascii	"dummy\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 201
+ARM GAS  /tmp/ccQYScAg.s 			page 201
 
 
  10232      7900
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10260      454E5200 
  10261              	.LASF154:
  10262 190f 444D415F 		.ascii	"DMA_Stream_TypeDef\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 202
+ARM GAS  /tmp/ccQYScAg.s 			page 202
 
 
  10262      53747265 
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10288      696C426F 
  10288      785F5479 
  10288      70654465 
-ARM GAS  /tmp/cchoAtMX.s 			page 203
+ARM GAS  /tmp/ccQYScAg.s 			page 203
 
 
  10289              	.LASF193:
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10316      53455400 
  10317              	.LASF628:
  10318 1a34 72657376 		.ascii	"resvd14\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 204
+ARM GAS  /tmp/ccQYScAg.s 			page 204
 
 
  10318      64313400 
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10348 1ac5 63665F6F 		.ascii	"cf_off_older\000"
  10348      66665F6F 
  10348      6C646572 
-ARM GAS  /tmp/cchoAtMX.s 			page 205
+ARM GAS  /tmp/ccQYScAg.s 			page 205
 
 
  10348      00
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10380      737400
  10381              	.LASF463:
  10382 1b50 47505444 		.ascii	"GPTD11\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 206
+ARM GAS  /tmp/ccQYScAg.s 			page 206
 
 
  10382      313100
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10411              	.LASF695:
  10412 1be2 72657376 		.ascii	"resvdE04\000"
  10412      64453034 
-ARM GAS  /tmp/cchoAtMX.s 			page 207
+ARM GAS  /tmp/ccQYScAg.s 			page 207
 
 
  10412      00
@@ -12418,7 +12418,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10442      00
  10443              	.LASF636:
  10444 1c6c 44494550 		.ascii	"DIEPTSIZ\000"
-ARM GAS  /tmp/cchoAtMX.s 			page 208
+ARM GAS  /tmp/ccQYScAg.s 			page 208
 
 
  10444      5453495A 
@@ -12478,7 +12478,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10472 1cf7 636C6F63 		.ascii	"clock_speed\000"
  10472      6B5F7370 
  10472      65656400 
-ARM GAS  /tmp/cchoAtMX.s 			page 209
+ARM GAS  /tmp/ccQYScAg.s 			page 209
 
 
  10473              	.LASF89:
@@ -12538,7 +12538,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10498 1d98 5F5F696E 		.ascii	"__int32_t\000"
  10498      7433325F 
  10498      7400
-ARM GAS  /tmp/cchoAtMX.s 			page 210
+ARM GAS  /tmp/ccQYScAg.s 			page 210
 
 
  10499              	.LASF527:
@@ -12598,7 +12598,7 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10526              	.LASF243:
  10527 1e56 6D5F6E65 		.ascii	"m_next\000"
  10527      787400
-ARM GAS  /tmp/cchoAtMX.s 			page 211
+ARM GAS  /tmp/ccQYScAg.s 			page 211
 
 
  10528              	.LASF215:
@@ -12658,47 +12658,47 @@ ARM GAS  /tmp/cchoAtMX.s 			page 1
  10557 1ef7 705F7374 		.ascii	"p_state\000"
  10557      61746500 
  10558              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-ARM GAS  /tmp/cchoAtMX.s 			page 212
+ARM GAS  /tmp/ccQYScAg.s 			page 212
 
 
-ARM GAS  /tmp/cchoAtMX.s 			page 213
+ARM GAS  /tmp/ccQYScAg.s 			page 213
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gpt_lld.c
-     /tmp/cchoAtMX.s:18     .text.gpt_lld_serve_interrupt:0000000000000000 $t
-     /tmp/cchoAtMX.s:25     .text.gpt_lld_serve_interrupt:0000000000000000 gpt_lld_serve_interrupt
-     /tmp/cchoAtMX.s:105    .text.gpt_lld_serve_interrupt:0000000000000044 $d
-     /tmp/cchoAtMX.s:110    .text.Vector118:0000000000000000 $t
-     /tmp/cchoAtMX.s:118    .text.Vector118:0000000000000000 Vector118
-     /tmp/cchoAtMX.s:169    .text.Vector118:0000000000000034 $d
-     /tmp/cchoAtMX.s:175    .text.VectorA8:0000000000000000 $t
-     /tmp/cchoAtMX.s:183    .text.VectorA8:0000000000000000 VectorA8
-     /tmp/cchoAtMX.s:234    .text.VectorA8:0000000000000034 $d
-     /tmp/cchoAtMX.s:240    .text.gpt_lld_init:0000000000000000 $t
-     /tmp/cchoAtMX.s:248    .text.gpt_lld_init:0000000000000000 gpt_lld_init
-     /tmp/cchoAtMX.s:307    .text.gpt_lld_init:0000000000000034 $d
-     /tmp/cchoAtMX.s:316    .text.gpt_lld_start:0000000000000000 $t
-     /tmp/cchoAtMX.s:324    .text.gpt_lld_start:0000000000000000 gpt_lld_start
-     /tmp/cchoAtMX.s:467    .text.gpt_lld_start:00000000000000b4 $d
-     /tmp/cchoAtMX.s:478    .text.gpt_lld_stop:0000000000000000 $t
-     /tmp/cchoAtMX.s:486    .text.gpt_lld_stop:0000000000000000 gpt_lld_stop
-     /tmp/cchoAtMX.s:579    .text.gpt_lld_stop:0000000000000060 $d
-     /tmp/cchoAtMX.s:587    .text.gpt_lld_start_timer:0000000000000000 $t
-     /tmp/cchoAtMX.s:595    .text.gpt_lld_start_timer:0000000000000000 gpt_lld_start_timer
-     /tmp/cchoAtMX.s:663    .text.gpt_lld_start_timer:0000000000000048 $d
-     /tmp/cchoAtMX.s:668    .text.gpt_lld_stop_timer:0000000000000000 $t
-     /tmp/cchoAtMX.s:676    .text.gpt_lld_stop_timer:0000000000000000 gpt_lld_stop_timer
-     /tmp/cchoAtMX.s:723    .text.gpt_lld_stop_timer:0000000000000030 $d
-     /tmp/cchoAtMX.s:728    .text.gpt_lld_polled_delay:0000000000000000 $t
-     /tmp/cchoAtMX.s:736    .text.gpt_lld_polled_delay:0000000000000000 gpt_lld_polled_delay
-     /tmp/cchoAtMX.s:796    .text.gpt_lld_polled_delay:0000000000000038 $d
-     /tmp/cchoAtMX.s:807    .bss.GPTD11:0000000000000000 GPTD11
-     /tmp/cchoAtMX.s:814    .bss.GPTD6:0000000000000000 GPTD6
-     /tmp/cchoAtMX.s:803    .bss.GPTD11:0000000000000000 $d
-     /tmp/cchoAtMX.s:810    .bss.GPTD6:0000000000000000 $d
-     /tmp/cchoAtMX.s:817    .rodata.__func__.9856:0000000000000000 $d
-     /tmp/cchoAtMX.s:821    .rodata.__func__.9856:0000000000000000 __func__.9856
+     /tmp/ccQYScAg.s:18     .text.gpt_lld_serve_interrupt:0000000000000000 $t
+     /tmp/ccQYScAg.s:25     .text.gpt_lld_serve_interrupt:0000000000000000 gpt_lld_serve_interrupt
+     /tmp/ccQYScAg.s:105    .text.gpt_lld_serve_interrupt:0000000000000044 $d
+     /tmp/ccQYScAg.s:110    .text.Vector118:0000000000000000 $t
+     /tmp/ccQYScAg.s:118    .text.Vector118:0000000000000000 Vector118
+     /tmp/ccQYScAg.s:169    .text.Vector118:0000000000000034 $d
+     /tmp/ccQYScAg.s:175    .text.VectorA8:0000000000000000 $t
+     /tmp/ccQYScAg.s:183    .text.VectorA8:0000000000000000 VectorA8
+     /tmp/ccQYScAg.s:234    .text.VectorA8:0000000000000034 $d
+     /tmp/ccQYScAg.s:240    .text.gpt_lld_init:0000000000000000 $t
+     /tmp/ccQYScAg.s:248    .text.gpt_lld_init:0000000000000000 gpt_lld_init
+     /tmp/ccQYScAg.s:307    .text.gpt_lld_init:0000000000000034 $d
+     /tmp/ccQYScAg.s:316    .text.gpt_lld_start:0000000000000000 $t
+     /tmp/ccQYScAg.s:324    .text.gpt_lld_start:0000000000000000 gpt_lld_start
+     /tmp/ccQYScAg.s:467    .text.gpt_lld_start:00000000000000b4 $d
+     /tmp/ccQYScAg.s:478    .text.gpt_lld_stop:0000000000000000 $t
+     /tmp/ccQYScAg.s:486    .text.gpt_lld_stop:0000000000000000 gpt_lld_stop
+     /tmp/ccQYScAg.s:579    .text.gpt_lld_stop:0000000000000060 $d
+     /tmp/ccQYScAg.s:587    .text.gpt_lld_start_timer:0000000000000000 $t
+     /tmp/ccQYScAg.s:595    .text.gpt_lld_start_timer:0000000000000000 gpt_lld_start_timer
+     /tmp/ccQYScAg.s:663    .text.gpt_lld_start_timer:0000000000000048 $d
+     /tmp/ccQYScAg.s:668    .text.gpt_lld_stop_timer:0000000000000000 $t
+     /tmp/ccQYScAg.s:676    .text.gpt_lld_stop_timer:0000000000000000 gpt_lld_stop_timer
+     /tmp/ccQYScAg.s:723    .text.gpt_lld_stop_timer:0000000000000030 $d
+     /tmp/ccQYScAg.s:728    .text.gpt_lld_polled_delay:0000000000000000 $t
+     /tmp/ccQYScAg.s:736    .text.gpt_lld_polled_delay:0000000000000000 gpt_lld_polled_delay
+     /tmp/ccQYScAg.s:796    .text.gpt_lld_polled_delay:0000000000000038 $d
+     /tmp/ccQYScAg.s:807    .bss.GPTD11:0000000000000000 GPTD11
+     /tmp/ccQYScAg.s:814    .bss.GPTD6:0000000000000000 GPTD6
+     /tmp/ccQYScAg.s:803    .bss.GPTD11:0000000000000000 $d
+     /tmp/ccQYScAg.s:810    .bss.GPTD6:0000000000000000 $d
+     /tmp/ccQYScAg.s:817    .rodata.__func__.9856:0000000000000000 $d
+     /tmp/ccQYScAg.s:821    .rodata.__func__.9856:0000000000000000 __func__.9856
 
 UNDEFINED SYMBOLS
 __stack_chk_fail
